@@ -981,7 +981,7 @@ $(document).ready(function () {
             $('#submitemail').text('Oddaj in podpiši!');
         } else {
             $('#signup .hider').removeClass('open');
-            $('#submitemail').text('Oddaj!');
+            $('#submitemail').text('Submit!');
         }
     });
     // newsletter android fix
