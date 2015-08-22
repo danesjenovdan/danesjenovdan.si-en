@@ -2,10 +2,10 @@ var majicaHTML = [	'<div class="vozicekitemcontainer">',
 					'<div class="vozicekitemimage" data-img="../../img/majica1.jpg" style="background-image: url(../../img/majica1.jpg); "></div>',
 					'<h1 class="vozicekitemtitle">T-shirt</h1>',
 					'<p class="vozicekitemproperty">{{ itemtype }}</p>',
-					'<p class="vozicekitemproperty">velikost {{ itemsize }}</p>',
+					'<p class="vozicekitemproperty">size {{ itemsize }}</p>',
 					'<div class="vozicekitemcountercontainer">',
 					'<div class="vozicekitemcounter" data-name="{{ itemname }}"><span class="artikelnumber">{{ itemquantity }}</span><div class="plusone" onclick="addItem($(this).parent().data(\'name\')); renderCart();"></div><div class="minusone" onclick="removeItem(getItemIdByName($(this).parent().data(\'name\'))); renderCart();"></div></div>',
-					'<div class="vozicekitemremove" data-name="{{ itemname }}" onclick="removeItemFamily(getItemIdByName($(this).data(\'name\'))); renderCart();">Odstrani <span class="odstranix">×</span></div>',
+					'<div class="vozicekitemremove" data-name="{{ itemname }}" onclick="removeItemFamily(getItemIdByName($(this).data(\'name\'))); renderCart();">Remove <span class="odstranix">×</span></div>',
 					'</div>',
 					'</div>'].join('\n'); // TODO update picture
 					
@@ -16,7 +16,7 @@ var rizleHTML = [	'<div class="vozicekitemcontainer">',
 					'<p class="vozicekitemproperty">&nbsp;</p>',
 					'<div class="vozicekitemcountercontainer">',
 					'<div class="vozicekitemcounter" data-name="{{ itemname }}"><span class="artikelnumber">{{ itemquantity }}</span><div class="plusone" onclick="addItem($(this).parent().data(\'name\')); renderCart();"></div><div class="minusone" onclick="removeItem(getItemIdByName($(this).parent().data(\'name\'))); renderCart();"></div></div>',
-					'<div class="vozicekitemremove" data-name="{{ itemname }}" onclick="removeItemFamily(getItemIdByName($(this).data(\'name\'))); renderCart();">Odstrani <span class="odstranix">×</span></div>',
+					'<div class="vozicekitemremove" data-name="{{ itemname }}" onclick="removeItemFamily(getItemIdByName($(this).data(\'name\'))); renderCart();">Remove <span class="odstranix">×</span></div>',
 					'</div>',
 					'</div>'].join('\n'); // TODO update picture
 
@@ -193,7 +193,7 @@ function renderCart() {
 				// zgoraj
 				$('.vozicekracun').before(renderMajica(items[majicaid]['details']['type'], items[majicaid]['details']['size'], items[majicaid]['quantity'], items[majicaid]['name']));
 				// na računu
-				$('.vozicekracun').prepend(renderRacun('Majica ' + items[majicaid]['details']['size'] + ' ' + items[majicaid]['details']['type'] + ' kroj', (parseInt(items[majicaid]['quantity']) * parseInt(items[majicaid]['price']))));
+				$('.vozicekracun').prepend(renderRacun('T-shirt ' + items[majicaid]['details']['size'] + ' ' + items[majicaid]['details']['type'] + ' type', (parseInt(items[majicaid]['quantity']) * parseInt(items[majicaid]['price']))));
 			} else {
 				// rizle so
 			
@@ -201,7 +201,7 @@ function renderCart() {
 				// zgoraj
 				$('.vozicekracun').before(renderRizle(items[rizleid]['quantity'], items[rizleid]['name']));
 				// na računu
-				$('.vozicekracun').prepend(renderRacun('Rizle', (items[rizleid]['quantity'] * items[rizleid]['price'])));
+				$('.vozicekracun').prepend(renderRacun('Roling papers', (items[rizleid]['quantity'] * items[rizleid]['price'])));
 			}
 		}
 	});
