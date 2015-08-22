@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="vozicekhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- meta info + OG tags -->
+		<title>Formalnosti</title>
+		<meta name="description" content="Portal Danes je nov dan je nastal jeseni 2012 kot sopotnik, integralni del in podpornik vstajniških gibanj. Od septembra 2013 delujemo kot inštitut, ki se osredotoča na (digitalno) politično participacijo, transparentnost in nadzor.">
+        <meta name="author" content="Danes je nov dan, Inštitut za druga vprašanja">
+        <link rel="shortcut icon" href="http://danesjenovdan.si/favicon.ico">
+        
+        <meta property="og:title" content="Formalnosti"/>
+		<meta property="og:type" content="article" />
+		<meta property="og:description" content="Portal Danes je nov dan je nastal jeseni 2012 kot sopotnik, integralni del in podpornik vstajniških gibanj. Od septembra 2013 delujemo kot inštitut, ki se osredotoča na (digitalno) politično participacijo, transparentnost in nadzor." />
+		<meta property="og:image" content="http://danesjenovdan.si/img/djndog.png" />
+
+		<!-- Bootstrap -->
+		<link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- font -->
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+		
+		<!-- icons -->
+		<link href="../../icons_/icons.css" rel="stylesheet">
+		
+		<!-- CSS -->
+		<link href="../../css/guide.css" rel="stylesheet">
+        
+        <!-- WP fix -->
+        <script>
+            (function() {
+                if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                    var msViewportStyle = document.createElement("style");
+                    msViewportStyle.appendChild(
+                        document.createTextNode("@-ms-viewport{width:auto!important}")
+                    );
+                    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+                }
+            })();
+        </script>
+		
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="card card-vozicek">
+							<div class="voziceksteps">
+								<div class="vozicekstep active">donacija</div>
+								<div class="vozicekstep">podatki</div>
+								<div class="vozicekstep">plačilo</div>
+							</div>
+						
+							<div class="vozicekstepcontainer" id="donacija">
+								<h1 class="voziceksteptitle">Povzetek naročila</h1>
+								<div class="pregledtotal">
+									<div class="pregledtotaltitle">Skupaj</div>
+									<div class="pregledtotalprice">0 €</div>
+								</div>
+								<div class="btn btn-pregled btn-donacija-first">Štima, nadaljuj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
+							</div>
+							
+							<div class="vozicekstepcontainer hidden" id="podatki">
+                                <div id="narocniknotform" class="">
+                                    <h1 class="vozicekstepformtitle">Kdo si?</h1>
+                                    <div class="steplabel">Ime in priimek</div>
+                                    <input type="text" class="form-control" id="donacijanamelastname">
+                                    <div class="steplabel">Email</div>
+                                    <input type="email" class="form-control emailshopinput" id="donacijaemail">
+                                    <div class="steplabel">Povej nam kaj</div>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+								<div class="btn btn-pregled btn-donacija-second">Štima, nadaljuj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
+							</div>
+							
+							<div class="vozicekstepcontainer hidden" id="placilo">
+								
+								<form class="placiloform ac-custom ac-radio ac-fill mesecnoplacilo" autocomplete="off">
+									<ul>
+										<li><input id="placajspaypalomredno" data-object="paypal" name="placilo" type="radio"><label for="placajspaypalomredno">mesečna donacija s kreditno kartico</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+									</ul>
+								</form>
+                                <form class="placiloform ac-custom ac-radio ac-fill enkratnoplacilo hidden" autocomplete="off">
+									<ul>
+										<li><input id="placajspoloznico" data-object="poloznica" name="placilo" type="radio"><label for="placajspoloznico">plačaj s položnico</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+										<li><input id="placajspaypalom" data-object="paypal" name="placilo" type="radio"><label for="placajspaypalom">plačaj s Paypalom ali kreditno kartico</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+									</ul>
+								</form>
+								<div class="btn btn-pregled btn-placaj">Plačaj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
+							</div>
+							
+						</div>
+                        <div class="vozicek-hvala hidden">
+                            <h1 class="hvalatitle">Hvalaaaa</h1>
+                            <p class="hvalatext">Tvoja družbeno odgovorna poteza predstavlja pomemben prispevek k delovanju Danes je nov dan, Inštituta za druga vprašanja, ki si je zadal državo in njene postopke vrniti ljudem v upravljanje ter presojo. Smo na vezi!</p>
+                        </div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-md-12 centermycontent">
+                        <p class="footnote">Danes je nov dan, Inštitut za druga vprašanja</p>
+                        <a class="footnotepogoji" href="../Pogoji%20poslovanja.pdf" target="_blank">pogoji poslovanja</a>
+                    </div>
+                </div>
+			</div>
+		</div>
+        
+        <form id="paypalformenkrat" class="hidden" name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="maschinna@gmail.com">
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="hidden" name="item_name" id="paypalitemname" value="">
+        <input type="hidden" name="amount" class="paypalprice" value="1">
+        <input type="image" src="http://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+        </form>
+            
+        <form id="paypalformredno" class="hidden" name="_xclick-" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="maschinna@gmail.com">
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="item_name" id="paypalitemname" value="">
+        <input type="hidden" name="amount" id="paypalprice" value="1">
+        <input type="image" src="http://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+        <input type="hidden" name="a3" class="paypalprice" value="">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        </form>
+    
+            
+            
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../../bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- jQuery cookie -->
+		<script src="../../js/jquery.cookie.js"></script>
+		<script src="../../js/nsa.js"></script>
+		
+        <!-- mailing -->
+        <script src="../../js/mandrill.js"></script>
+        <script src="../../js/mailing.js"></script>
+        
+		<!-- frontend magic -->
+		<script src="../../js/front.js"></script>
+		<script src="../../js/donacija.js"></script>
+		
+        <!-- Google Universal Analytics -->
+        <script>
+            (function(){'use strict';window.Fingerprint=function(a){var e=Array.prototype.forEach,f=Array.prototype.map;this.each=function(a,b,c){if(null!==a)if(e&&a.forEach===e)a.forEach(b,c);else if(a.length===+a.length)for(var d=0,f=a.length;d<f&&b.call(c,a[d],d,a)!=={};d++);else for(d in a)if(a.hasOwnProperty(d)&&b.call(c,a[d],d,a)==={})break};this.map=function(a,b,c){var d=[];if(null==a)return d;if(f&&a.map===f)return a.map(b,c);this.each(a,function(a,f,e){d[d.length]=b.call(c,a,f,e)});return d};a&&(this.hasher=a)}; Fingerprint.prototype={get:function(){var a=[];a.push(navigator.userAgent);a.push([screen.height,screen.width,screen.colorDepth].join("x"));a.push((new Date).getTimezoneOffset());a.push(!!window.sessionStorage);a.push(!!window.localStorage);var e=this.map(navigator.plugins,function(a){var e=this.map(a,function(a){return[a.type,a.suffixes].join("~")}).join(",");return[a.name,a.description,e].join("::")},this).join(";");a.push(e);return this.hasher?this.hasher(a.join("###"),31):this.murmurhash3_32_gc(a.join("###"), 31)},murmurhash3_32_gc:function(a,e){var f,g,b,c,d;f=a.length&3;g=a.length-f;b=e;for(d=0;d<g;)c=a.charCodeAt(d)&255|(a.charCodeAt(++d)&255)<<8|(a.charCodeAt(++d)&255)<<16|(a.charCodeAt(++d)&255)<<24,++d,c=3432918353*(c&65535)+((3432918353*(c>>>16)&65535)<<16)&4294967295,c=c<<15|c>>>17,c=461845907*(c&65535)+((461845907*(c>>>16)&65535)<<16)&4294967295,b^=c,b=b<<13|b>>>19,b=5*(b&65535)+((5*(b>>>16)&65535)<<16)&4294967295,b=(b&65535)+27492+(((b>>>16)+58964&65535)<<16);c=0;switch(f){case 3:c^=(a.charCodeAt(d+2)&255)<<16;case 2:c^=(a.charCodeAt(d+1)&255)<<8;case 1:c^=a.charCodeAt(d)&255,c=3432918353*(c&65535)+((3432918353*(c>>>16)&65535)<<16)&4294967295,c=c<<15|c>>>17,b^=461845907*(c&65535)+((461845907*(c>>>16)&65535)<<16)&4294967295}b^=a.length;b^=b>>>16;b=2246822507*(b&65535)+((2246822507*(b>>>16)&65535)<<16)&4294967295;b^=b>>>13;b=3266489909*(b&65535)+((3266489909*(b>>>16)&65535)<<16)&4294967295;return(b^b>>>16)>>>0}}})();
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            var fingerprint = new Fingerprint().get();
+            ga('create', 'UA-36901322-1', 'danesjenovdan.si', {'storage': 'none','clientId': fingerprint, 'userId': $.cookie('djndid')});
+            ga('send', 'pageview', {'anonymizeIp': 'true'});
+            
+            ga('set', 'dimension1', $.cookie('djndid'));
+        </script>
+        <!-- End of Google Universal Analytics -->
+        <!-- better pageview tracking -->
+        <script>
+            (function (tos) {
+                window.setInterval(function () {
+                    tos = (function (t) {
+                        return t[0] == 50 ? (parseInt(t[1]) + 1) + ':00' : (t[1] || '0') + ':' + (parseInt(t[0]) + 10);
+                    })(tos.split(':').reverse());
+                    ga('send', 'event', 'Time', 'Log', 'ToS', tos);
+                }, 10000);
+            })('00');
+        </script>
+        <!-- end of better pageview tracking -->
+        
+	</body>
+</html>

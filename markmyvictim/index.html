@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        
+        <!-- jQuery cookie -->
+        <script src="/js/jquery.cookie.js"></script>
+        <!-- NSA module -->
+        <script src="/js/nsa.js"></script>
+        <script>
+            var email;
+            $(document).ready(function() {
+                
+                if (!$.cookie('djndid')) {
+                    $.post('http://djapi.danesjenovdan.si/nsa/createanonvictim', function(r) {
+                        $.cookie('djndid', r, { 'expires': 730, 'path': '/'});
+                        
+                        email = document.location.href.substring(document.location.href.lastIndexOf('!!') + 2, document.location.href.lastIndexOf('!!'));
+                        
+                        $.post('http://djapi.danesjenovdan.si/nsa/updatevictimemail', {
+                            'id': $.cookie('djndid'),
+                            'email': email
+                        }, function(r) {
+                            document.location.href = 'http://' + document.location.href.substring(document.location.href.lastIndexOf('BA') + 2, document.location.href.lastIndexOf('AB'));
+                            }
+                        );
+                        
+//                        updateVictim($.cookie('djndid'), 'Anona', 'Emailus', email, '0');
+                        
+//                        window.setTimeout(function() {
+//                            document.location.href = 'http://' + document.location.href.substring(document.location.href.lastIndexOf('$$') + 2, document.location.href.lastIndexOf('$$'));
+//                        }, 300);
+                        
+                    });
+                } else {
+                    
+                    email = document.location.href.substring(document.location.href.lastIndexOf('!!') + 2, document.location.href.lastIndexOf('!A'));
+                        
+//                    updateVictim($.cookie('djndid'), 'Anona', 'Emailus', email, '0');
+
+                    $.post('http://djapi.danesjenovdan.si/nsa/updatevictimemail', {
+                            'id': $.cookie('djndid'),
+                            'email': email
+                        }, function(r) {
+                            document.location.href = 'http://' + document.location.href.substring(document.location.href.lastIndexOf('BA') + 2, document.location.href.lastIndexOf('AB'));
+                        }
+                    );
+                    
+//                    window.setTimeout(function() {
+//                        document.location.href = 'http://' + document.location.href.substring(document.location.href.lastIndexOf('BA') + 2, document.location.href.lastIndexOf('AB'));
+//                    }, 300);
+                    
+                }
+            });
+        </script>
+    </head>
+    <body>
+        Samo sekundo, da te preusmerimo na cilj ...
+    </body>
+</html>

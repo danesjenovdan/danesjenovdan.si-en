@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- meta info + OG tags -->
+		<title>DJND Styleguide</title>
+		<meta name="description" content="To je styleguide Danes je nov dan. Tudi HTML head lahko kopiraš. :)">
+        <meta name="author" content="Danes je nov dan, Inštitut za druga vprašanja">
+        <link rel="shortcut icon" href="http://danesjenovdan.si/favicon.ico">
+        
+        <meta property="og:title" content="DJND styleguide"/>
+		<meta property="og:type" content="article" />
+		<meta property="og:description" content="To je styleguide Danes je nov dan. Celo OG tagi so not!" />
+		<meta property="og:image" content="TODO" />
+
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- font -->
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+		
+		<!-- icons -->
+		<link href="icons/icons.css" rel="stylesheet">
+		
+		<!-- highlight.js -->
+		<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+		<link href="css/highlight.css" rel="stylesheet">
+		
+		<!-- CSS -->
+		<link href="css/guide.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<div id="menucontent">
+			<div id="menuheader"><div id="menuclose"><div id="menucloseicon" class="icon icon-close"></div></div><div id="menutitle">Danes je nov dan</div></div>
+			<div class="menuitem">Konsenz</div>
+			<div class="menuitem">Projekti</div>
+			<div class="menuitem">Krivi</div>
+			<div class="menuitem">Dolžni</div>
+			<div class="menuitem">Formalnosti</div>
+			<div class="menuitem">Občasnik</div>
+		</div>
+		
+		<div class="popup" id="signup">
+			<div class="popupclose"><div class="icon-close"></div></div>
+			<div class="container popupcontainer">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<p class="popuptext">To je tekst od popupa. Pazljivo, forma je najverjetneje aktivna. :)</p>
+						<form class="ac-custom ac-checkbox ac-checkmark">
+							<input type="email" id="newsletteremail" class="form-control">
+							<ul>
+								<li><input id="dodajme" name="dodajme" type="checkbox"><label for="dodajme">dodaj me na listo podpornikov</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+							<ul>
+						</form>
+						<button class="btn btn-popup" id="submitemail"><div class="pulse"></div>Pošlji!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row" id="header">
+	            <div class="container">
+	                <div class="row">
+						<div id="menu">
+							<div id="menutoggle"><div class="icon-menu"></div></div>
+							<h1 id="nologo">Danes je nov dan</h1>
+						</div>
+		                <div class="col-md-12">
+		                    <h1 id="intro"><span id="title">DJND styleguide /</span> To je styleguide Danes je nov dan. Tudi HTML head lahko kopiraš. Not so že vstavljeni OG tagi, tudi to je copy-ready. Uživaj! Default barva je zelena. Za vse ostalo uporabljaj classe.</h2>
+		                </div>
+	                </div>
+	            </div>
+	        </div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="cardtitlecontainer">
+								<h1 class="cardtitle">Kartice [card]</h1>
+								<div class="triangle triangle-top"></div>
+								<div class="triangle triangle-bottom"></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>Card naseli bootstrapov stolpec in se razširi po njem po dolgem in počez. V cardu rabiš "cardtitle", potem pa po bootstrapovsko "row" in "col-WHATEVER". Elementi carda ne dedujejo ničesar.</p>
+									<pre><code class="html">&lt;div class="col-md-6"&gt;
+ &lt;div class="card"&gt;
+   &lt;div class="cardtitlecontainer"&gt;
+     &lt;h1 class="cardtitle"&gt;&lt;!-- card title was here --&gt;&lt;/h1&gt;
+     &lt;div class="triangle triangle-top"&gt;&lt;/div&gt;
+     &lt;div class="triangle triangle-bottom"&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="row"&gt;
+     &lt;div class="col-md-12"&gt;
+       &lt;!-- card content was here --&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="cardtitlecontainer">
+								<h1 class="cardtitle col-gold">Elementi [icon]</h1>
+								<div class="triangle triangle-top triangle-gold"></div>
+								<div class="triangle triangle-bottom"></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>Evo jih, veliko jih je.</p>
+									<div class="circle"><div class="pulse"></div><div class="icon icon-email"></div></div>
+									<div class="circle circle-gold"><div class="pulse"></div><div class="icon icon-phone"></div></div>
+									<div class="circle circle-red"><div class="pulse"></div><div class="icon icon-house"></div></div>
+									<div class="circle circle-gold"><div class="pulse"></div><div class="icon icon-file"></div></div>
+									
+									<pre><code class="html">&lt;div class=&quot;circle circle-gold&quot;&gt;&lt;div class=&quot;pulse&quot;&gt;&lt;/div&gt;&lt;div class=&quot;icon icon-file&quot;&gt;&lt;/div&gt;&lt;/div&gt;</pre></code>
+									
+									<div class="btn popupopen" data-href="signup">Odpri popup bitch.</div>
+									<pre><code class="html">&lt;div class=&quot;btn popupopen&quot; data-href=&quot;signup&quot;&gt;Odpri popup bitch.&lt;/div&gt;</pre></code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="cardtitlecontainer">
+								<h1 class="cardtitle">Tile-i [tile]</h1>
+								<div class="triangle triangle-top"></div>
+								<div class="triangle triangle-bottom"></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>Nahajajo se spodaj, veljajo ista pravila kot za cards. Classes: <strong>tile, tile-small, tile-big, tile-agrument, tile-news</strong></p>
+									<pre><code class="html">&lt;div class="col-md-3"&gt;
+  &lt;div class="tile tile-small"&gt;
+     &lt;h1 class="tiletitle"&gt;&lt;!-- naslov --&gt;&lt;/h1&gt;
+     &lt;div class="arrow-down-right"&gt;&lt;div class="icon-arrow-down-right"&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+									<pre><code class="html">&lt;div class="col-md-6"&gt;
+  &lt;div class="tile tile-big"&gt;
+    &lt;h1 class="tiletitle"&gt;&lt;!-- naslov --&gt;&lt;/h1&gt;
+    &lt;p class="tiletext"&gt;&lt;!-- text --&gt;&lt;/p&gt;
+    &lt;div class="arrow-down-right"&gt;&lt;div class="icon-arrow-down-right"&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="tile tile-big tile-agrument">
+									<h1 class="tiletitle">Zadnji<br>agrument</h1>
+									<h2 class="agrumenttitle">Naslov agrumenta je naslov</h2>
+									<div class="arrow-down-right"><div class="icon-arrow-down-right"></div></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="tile tile-news">
+									<h1 class="tiletitle">Cities fall but are they rebuilt</h1>
+									<h2 class="date">12. 12. 2012</h2>
+									<p class="tiletext">Trajlili trajlila trajlilila. Khm. Lilillaaaaaa. Khm. Khm. Khm. Trajlili trajlila trajlilila. Khm. Lilillaaaaaa. Trajlili trajlila trajlilila. Khm. Khm. Khm. Khm. Khm. Khm. Lilillaaaaaa.</p>
+									<div class="arrow-down-right bck-red"><div class="icon-arrow-down-right"></div></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<div class="tile tile-small">
+							<h1 class="tiletitle">Kdo smo?</h1>
+							<div class="arrow-down-right"><div class="icon-arrow-down-right"></div></div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="tile tile-small bck-gold">
+							<h1 class="tiletitle insttitle">Danes je nov dan, Inštitut za druga vprašanja</h1>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="tile tile-big">
+							<h1 class="tiletitle">Trajlili</h1>
+							<p class="tiletext">Trajlili trajlila trajlilila. Khm. Lilillaaaaaa. Khm. Khm. Khm. Trajlili trajlila trajlilila. Khm. Lilillaaaaaa. Trajlili trajlila trajlilila. Khm. Khm. Khm. Khm. Khm. Khm. Lilillaaaaaa.</p>
+							<div class="arrow-down-right bck-red"><div class="icon-arrow-down-right"></div></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="tab selected">vsi</div>
+						<div class="tab">ustanovitelji</div>
+						<div class="tab">svet zavoda</div>
+						<div class="tab">znanstveni svet zavoda</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-3">
+						<div class="polaroid">
+							<div class="image" id="filip"></div>
+							<h1 class="polaroidname">Filip Muki Dobranić</h1>
+							<a class="polaroidlink" href="#">filip@danesjenovdan.si</a>
+							<p class="polaroidtext">odgovoren za hekanje in srčke &lt;3</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="polaroid">
+							<div class="image" id="nika"></div>
+							<h1 class="polaroidname">Filip Muki Dobranić</h1>
+							<a class="polaroidlink" href="#">filip@danesjenovdan.si</a>
+							<p class="polaroidtext">odgovoren za hekanje in srčke &lt;3</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="polaroid">
+							<div class="image" id="ziga"></div>
+							<h1 class="polaroidname">Filip Muki Dobranić</h1>
+							<a class="polaroidlink" href="#">filip@danesjenovdan.si</a>
+							<p class="polaroidtext">odgovoren za hekanje in srčke &lt;3</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="polaroid">
+							<div class="image" id="jasmina"></div>
+							<h1 class="polaroidname">Filip Muki Dobranić</h1>
+							<a class="polaroidlink" href="#">filip@danesjenovdan.si</a>
+							<p class="polaroidtext">odgovoren za hekanje in srčke &lt;3</p>
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- end of container -->
+			
+	
+			<div class="row" id="footer">
+				<svg id="footerdivider" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="40px" viewBox="0 0 100 102" preserveAspectRatio="none">
+					<path d="M0 0 L50 300 L100 0 Z"></path>
+				</svg>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 footerline">
+							<div id="newsletter" class="icon-newsletter"></div>
+							<p id="newslettertext" class="footertext"><a class="footerlink popupopen" data-href="signup" href="#">Naroči se na e-novice.</a> Pišemo samo, kadar imamo res kaj povedati.</p>
+						</div>
+						<div class="col-md-3 footerline">
+							<div id="socialcontainer">
+							<div class="social">
+								<div class="pulse"></div>
+								<div class="icon icon-facebook"></div>
+							</div>
+							<div class="social">
+								<div class="pulse"></div>
+								<div class="icon icon-twitter"></div>
+							</div>
+							<br>
+							<div class="social">
+								<div class="pulse"></div>
+								<div class="icon icon-github"></div>
+							</div>
+							<div class="social">
+								<div class="pulse"></div>
+								<div class="icon icon-playbig"></div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 footerline">
+							<span id="podpri"><span class="icon icon-heart col-gold"></span>Podpri nas!</span>
+						</div>
+						<div class="col-md-3 footerline">
+							<p class="footertext" id="izkaznica">Danes je nov dan<br>Inštitut za druga vprašanja<br>Parmova ulica 20, 1000 Ljubljana<br><br><a class="footerlink" href="mailto:vsi@danesjenovdan.si">vsi@danesjenovdan.si</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- frontend magic -->
+		<script src="js/front.js"></script>
+	</body>
+</html>

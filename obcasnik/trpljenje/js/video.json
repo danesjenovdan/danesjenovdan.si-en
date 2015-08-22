@@ -1,0 +1,151 @@
+// object with video IDs
+var times = {
+    zda: [
+        {
+            'snippetid': 'zda1',
+            'snippetdata': {
+                'videoid': 'oniFAoHgSmw',
+                'start': 303,
+                'stop': 312
+            }
+ },
+        {
+            'snippetid': 'zda2',
+            'snippetdata': {
+                'videoid': 'SpbwPivKhgA',
+                'start': 7,
+                'stop': 17
+            }
+ },
+        {
+            'snippetid': 'zda3',
+            'snippetdata': {
+                'videoid': 'jMSTaXT59TQ',
+                'start': 24,
+                'stop': 54
+            }
+ },
+        {
+            'snippetid': 'zda4',
+            'snippetdata': {
+                'videoid': 'Bge-jG4l6k4',
+                'start': 219,
+                'stop': 229
+            }
+ },
+        {
+            'snippetid': 'zda5',
+            'snippetdata': {
+                'videoid': 'iZeex-n5_-A',
+                'start': 128,
+                'stop': 145
+            }
+ },
+        {
+            'snippetid': 'zda6',
+            'snippetdata': {
+                'videoid': '_2cEa1lLcgE',
+                'start': 16,
+                'stop': 20
+            }
+ },
+        {
+            'snippetid': 'zda7',
+            'snippetdata': {
+                'videoid': 'oWLQlZEYxu0',
+                'start': 23,
+                'stop': 60
+            }
+ }],
+    eu: [
+        {
+            'snippetid': 'eu1',
+            'snippetdata': {
+                'videoid': 'TrZuQ1ak3t0',
+                'start': 144,
+                'stop': 158
+            }
+ },
+        {
+            'snippetid': 'eu2',
+            'snippetdata': {
+                'videoid': 'uFxXkWVRBeo',
+                'start': 33,
+                'stop': 40
+            }
+ }],
+    uk: [
+        {
+            'snippetid': 'uk1',
+            'snippetdata': {
+                'videoid': '4sniWN3k72k',
+                'start': 15,
+                'stop': 36
+            }
+ },
+        {
+            'snippetid': 'uk2',
+            'snippetdata': {
+                'videoid': 'MJlJQ4ZBeHA',
+                'start': 30,
+                'stop': 40
+            }
+},
+        {
+            'snippetid': 'uk3',
+            'snippetdata': {
+                'videoid': 'NjgL50aqvQk',
+                'start': 30,
+                'stop': 55
+            }
+},
+        {
+            'snippetid': 'uk4',
+            'snippetdata': {
+                'videoid': 'i0SV-eHStSM',
+                'start': 21,
+                'stop': 27
+            }
+},
+        {
+            'snippetid': 'uk5',
+            'snippetdata': {
+                'videoid': '6YOc3S1IZ4g',
+                'start': 18,
+                'stop': 29
+            }
+}],
+    nemcija: [
+        {
+            'snippetid': 'nemcija1',
+            'snippetdata': {
+                'videoid': 'e4dyGwclcuE',
+                'start': 16,
+                'stop': 32
+            }
+},
+        {
+            'snippetid': 'nemcija2',
+            'snippetdata': {
+                'videoid': 'SYpbzIK4Ao',
+                'start': 47,
+                'stop': 70
+            }
+},
+        {
+            'snippetid': 'nemcija3',
+            'snippetdata': {
+                'videoid': 'pxifQEzBJ5o',
+                'start': 48,
+                'stop': 66
+            }
+},
+        {
+            'snippetid': 'nemcija4',
+            'snippetdata': {
+                'videoid': 'pxifQEzBJ5o',
+                'start': 218,
+                'stop': 241
+            }
+}]
+};
