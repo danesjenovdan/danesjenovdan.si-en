@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- meta info + OG tags -->
+    <title>Today is a new day</title>
+    <meta name="description" content="Nurturing critical thought. Posing other questions. Hacking a new day. Nurturing a safe, inclusive and modern web. And world. We believe in community. Our measure is pleasure.">
+    <meta name="author" content="Today is a new day, Institute for other studies">
+    <link rel="shortcut icon" href="http://danesjenovdan.si/favicon.ico">
+
+    <meta property="og:title" content="Today is a new day" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Nurturing critical thought. Posing other questions. Hacking a new day. Nurturing a safe, inclusive and modern web. And world. We believe in community. Our measure is pleasure." />
+    <meta property="og:image" content="http://danesjenovdan.si/img/djndog.png" />
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <!-- font -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+
+    <!-- icons -->
+    <link href="../icons/icons.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="../css/guide.css" rel="stylesheet">
+    <link href="../css/cookies.css" rel="stylesheet">
+
+    <!-- WP fix -->
+    <script>
+        (function () {
+            if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode("@-ms-viewport{width:auto!important}")
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <span class="cookiewords">I'm fine with cookies</span>
+                <div class="btn-cookie bck-red">Sure</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1>What are cookies?</h1>
+                <p>Cookies are small text files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, and can be accessed either by the web server or the client computer. This allows the server to deliver a page tailored to a particular user, or the page itself can contain some script which is aware of the data in the cookie and is thereby able to carry information from one visit to the website (or related sites) to the next. The cookies we use on our site don't collect data which could identify you. Because we wish to be fully honest, we've prepared a list of all cookies we use with full expanation why we use them. Please note that with the continued use of this site, you agree to our use of described cookies.</p>
+                <h1>Necessary cookies</h1>
+                <p>Cookie "djndconsent" consists of the values 0 or 1 and it tells us if you've already agreed with the use of cookies. It expires in 2 years.</p>
+                <p>Cookie "djndCart" memorizes the contents of your cart. It doesn't contain any personal information about you.</p>
+                <h1>The not-utterly-required cookie</h1>
+                <p>In addition to the latter we also install a cookie on your computer that contains a random number and no other data. With this number, we record your visits and clicks on some particular buttons. We use these anonymous records to assess what content users find easily and which things users like the most, but are hard to find. Website operates normally without it, but the cookie allows us to quickly and efficiently improve the website and ensure that each of your next visits is even more enjoyable.</p>
+                <h1>How can I manage or remove cookies?</h1>
+                <p>If you wish, you can change the settings regarding the use of cookies in the browser on your computer or mobile device. Most modern browsers will allow you to accept or decline all cookies, accept or decline only certain types of cookies or you can enable warnings that the site wants to store a cookie on your machine. You can also delete cookies that the browser already saved on your device. Please note that, in the case of turning off the cookies all the features of websites may not work equally effective, cookie warnings will appear at each visit and in the long run your website experience will be far less enjoyable. The process of setting the changes is different in each browser. Information on this can be found on the website www.aboutcookies.org, which clearly explains the process in all the most popular browsers, or you can contact us via e-mail.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <span class="cookiewords">I'm fine with cookies</span>
+                <div class="btn-cookie bck-red">Sure</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- jQuery cookie -->
+    <script src="/js/jquery.cookie.js"></script>
+    <!-- NSA -->
+    <script src="/js/nsa.js"></script>
+
+    <script>
+        $('.btn-cookie').on('click', function () {
+            window.close();
+        });
+    </script>
+
+</body>
+
+</html>

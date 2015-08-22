@@ -323,7 +323,7 @@ $(document).ready(function () {
     });
     // get more info about cookies
     $('.cookiemoreinfo').on('click', function () {
-        window.open('http://danesjenovdan.si/piskotki/', '_blank');
+        window.open('http://danesjenovdan.si/eng/cookies/', '_blank');
     });
 
     if (window.touchcheck()) {
