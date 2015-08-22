@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- meta info + OG tags -->
-		<title>Nakupovalni vozicek</title>
+		<title>Shopping cart</title>
 		<meta name="description" content="Portal Danes je nov dan je nastal jeseni 2012 kot sopotnik, integralni del in podpornik vstajniških gibanj. Od septembra 2013 delujemo kot inštitut, ki se osredotoča na (digitalno) politično participacijo, transparentnost in nadzor.">
         <meta name="author" content="Danes je nov dan, Inštitut za druga vprašanja">
         <link rel="shortcut icon" href="http://danesjenovdan.si/favicon.ico">
@@ -56,26 +56,26 @@
 					<div class="col-md-6 col-md-offset-3">
 						<div class="card card-vozicek">
 							<div class="voziceksteps">
-								<div class="vozicekstep active">Naročilo</div>
-								<div class="vozicekstep">prevzem</div>
-								<div class="vozicekstep">plačilo</div>
+								<div class="vozicekstep active">order</div>
+								<div class="vozicekstep">delivery</div>
+								<div class="vozicekstep">payment</div>
 							</div>
 						
 							<div class="vozicekstepcontainer" id="pregled">
-								<h1 class="voziceksteptitle">Povzetek naročila</h1>
+								<h1 class="voziceksteptitle">Order summary</h1>
 								<div class="pregledtotal">
-									<div class="pregledtotaltitle">Skupaj</div>
+									<div class="pregledtotaltitle">Total</div>
 									<div class="pregledtotalprice">0 €</div>
 								</div>
-								<div class="btn btn-pregled btn-pregled-first">Štima, nadaljuj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
+								<div class="btn btn-pregled btn-pregled-first">All iz well, continue <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
 							</div>
 							
 							<div class="vozicekstepcontainer hidden" id="prevzem">
 								
 								<form id="form-dostava" class="vozicekform ac-custom ac-radio ac-fill" autocomplete="off" id="prevzemform">
 									<ul>
-                                        <li><input id="poposti" name="dostava" type="radio"><label for="poposti">dostava po pošti</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
-										<li><input id="osebno" name="dostava" type="radio"><label for="osebno">osebni prevzem</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+                                        <li><input id="poposti" name="dostava" type="radio"><label for="poposti">delivery by mail</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+										<li><input id="osebno" name="dostava" type="radio"><label for="osebno">pick up in person</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
 									</ul>
 								</form>
 								<div class="vozicekstepcontainer vozicekstepchild">
@@ -89,28 +89,27 @@
 									</form>
 									<div id="narocniknotform" class="hidden">
 										<h1 class="vozicekstepformtitle"></h1>
-										<div class="steplabel">Ime in priimek</div>
+										<div class="steplabel">Name and last name</div>
 										<input type="text" data-object="name" class="form-control" id="voziceknamelastname">
                                         <div class="steplabel">Email</div>
 										<input type="text" data-object="email" class="form-control emailshopinput" id="vozicekemail">
-										<div class="steplabel">Naslov</div>
+										<div class="steplabel">Address</div>
 										<input type="text" data-object="address" class="form-control" id="vozicekaddress1">
-										<div class="steplabel">Pošta in poštna številka</div>
+										<div class="steplabel">City and postal code</div>
 										<input type="text" data-object="address2" class="form-control" id="vozicekaddress2">
-										<div class="steplabel">Povej nam kaj</div>
+										<div class="steplabel">Drop us a note</div>
 										<textarea data-object="extra" class="form-control povejnam"></textarea>
 									</div>
 								</div>
-								<div class="btn btn-pregled btn-prevzem">Štima, nadaljuj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
+								<div class="btn btn-pregled btn-prevzem">All iz well, continue <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
 							</div>
 							
 							<div class="vozicekstepcontainer hidden" id="plačilo">
 								
 								<form class="ac-custom ac-radio ac-fill placiloform" autocomplete="off">
 									<ul>
-										<li><input id="placajspoloznico" data-object="poloznica" name="placilo" type="radio"><label for="placajspoloznico">plačaj s položnico</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
-                                        <li><input id="placajpopovzetju" data-object="po povzetju" name="placilo" type="radio"><label for="placajpopovzetju">plačaj po povzetju</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
-										<li><input id="placajspaypalom" data-object="paypal" name="placilo" type="radio"><label for="placajspaypalom">plačaj s Paypalom ali kreditno kartico</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+										<li><input id="placajspoloznico" data-object="poloznica" name="placilo" type="radio"><label for="placajspoloznico">pay by bank transfer</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
+										<li><input id="placajspaypalom" data-object="paypal" name="placilo" type="radio"><label for="placajspaypalom">pay with Paypal or by credit card</label><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg></li>
 									</ul>
 								</form>
 								<div style="margin-top: 30px;" class="btn btn-pregled btn-placaj">Plačaj <div class="icon icon-zakljuci"><div class="icon-zakljuci-thin"></div></div></div>
@@ -118,15 +117,15 @@
 							
 						</div>
                         <div class="vozicek-hvala hidden">
-                            <h1 class="hvalatitle">Hvalaaaa</h1>
-                            <p class="hvalatext">Tvoja družbeno odgovorna poteza predstavlja pomemben prispevek k delovanju Danes je nov dan, Inštituta za druga vprašanja, ki si je zadal državo in njene postopke vrniti ljudem v upravljanje ter presojo. Smo na vezi!</p>
+                            <h1 class="hvalatitle">Thank youuuuuuu</h1>
+                            <p class="hvalatext">Your socially responsible purchase represents an important contribution to the functioning of Today is a New Day, Institute for Other Studies. Our aim is to return control and management of the State and its procedures to the poeple. Wear it with love!</p>
                         </div>
 					</div>
 				</div>
                 <div class="row">
                     <div class="col-md-12 centermycontent">
-                        <p class="footnote">Danes je nov dan, Inštitut za druga vprašanja</p>
-                        <a class="footnotepogoji" href="../Pogoji%20poslovanja.pdf" target="_blank">pogoji poslovanja</a>
+                        <p class="footnote">Today is a new day, institute for other studies</p>
+                        <a class="footnotepogoji" href="../Pogoji%20poslovanja.pdf" target="_blank">terms and conditions</a>
                     </div>
                 </div>
 			</div>
