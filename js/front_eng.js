@@ -580,7 +580,7 @@ $(document).ready(function () {
             'eventLabel': 'landing'
         });
 
-        document.location.href = 'http://danesjenovdan.si/'
+        document.location.href = 'http://danesjenovdan.si/eng/'
     });
 
     $('#menuclose').on('click', function () {
@@ -655,7 +655,7 @@ $(document).ready(function () {
                     'eventLabel': _this.data('menu')
                 });
 
-                document.location.href = 'http://danesjenovdan.si/' + _this.data('menu');
+                document.location.href = 'http://danesjenovdan.si/eng/' + _this.data('menu');
             } else {
                 $('#menu, #obcasnik').animate({
                     'top': 0
