@@ -323,7 +323,7 @@ $(document).ready(function () {
     });
     // get more info about cookies
     $('.cookiemoreinfo').on('click', function () {
-        window.open('http://danesjenovdan.si/eng/cookies/', '_blank');
+        window.open('http://danesjenovdan.si/en/cookies/', '_blank');
     });
 
     if (window.touchcheck()) {
@@ -580,7 +580,7 @@ $(document).ready(function () {
             'eventLabel': 'landing'
         });
 
-        document.location.href = 'http://danesjenovdan.si/eng/'
+        document.location.href = 'http://danesjenovdan.si/en/'
     });
 
     $('#menuclose').on('click', function () {
@@ -655,7 +655,7 @@ $(document).ready(function () {
                     'eventLabel': _this.data('menu')
                 });
 
-                document.location.href = 'http://danesjenovdan.si/eng/' + _this.data('menu');
+                document.location.href = 'http://danesjenovdan.si/en/' + _this.data('menu');
             } else {
                 $('#menu, #obcasnik').animate({
                     'top': 0
