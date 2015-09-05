@@ -307,6 +307,10 @@ function repaintMe() {
 // document ready
 $(document).ready(function () {
 
+    $('.languagetoggle').on('click', function() {
+        document.location.href = $(this).data('href');
+    });
+    
     repaintMe();
     window.onresize = function () {
         repaintMe();
