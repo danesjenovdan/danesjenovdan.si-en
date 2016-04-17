@@ -419,19 +419,19 @@ $(document).ready(function () {
 
         return false;
     });
-    $('.projecttiletitle, .projectnumbercontainer').on('click', function () {
+    $('.tile-project').on('click', function () {
 
         // ga za projekte
         ga('send', {
             'hitType': 'event',
             'eventCategory': 'projekti_popup',
-            'eventAction': $(this).parent().attr('id'),
+            'eventAction': $(this).attr('id'),
             'eventLabel': 'globina',
             'eventValue': 0
         });
 
         $('.popup').height($(window).height());
-        $('#' + $(this).parent().data('href')).addClass('open');
+        $('#' + $(this).data('href')).addClass('open');
         return false;
     });
 
