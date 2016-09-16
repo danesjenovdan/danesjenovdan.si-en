@@ -1,7 +1,8 @@
 // equalise heights
 $.fn.equalizeHeights = function () {
+    $(this).css("height", "");
     return this.height(Math.max.apply(this, $(this).map(function (i, e) {
-        return $(e).height()
+        return $(e).height() + 15
     }).get()));
 }
 
@@ -284,23 +285,13 @@ function repaintMe() {
         $(e).css('background-image', 'url(' + $(e).data('img') + ')');
     });
 
+    $('.projectnumber').width($('.projectnumbercontainer').width() - $('.projectnumbercontainer .arrow-project').width() - 15);
+
     if ($(window).width() < 992) {
-        $('.tile-big').removeClass('tile-big').addClass('tile-small');
-        $('.agrumenttitle, .tiletext').hide();
-
-        $('.tile-landing-obcasnik').removeClass('tile-landing-obcasnik').addClass('tile-small');
-        $('.arrow-small-tile').removeClass('arrow-small-tile');
-        $('.tileobcasniktitle').removeClass('tileobcasniktitle').addClass('tiletitle');
-        $('.obcasniktiledate').hide();
-
-        $('.insttitle').removeClass('insttitle');
-
-        $('.projectnumber').width(
-            $('.projectnumbercontainer')
-            .width() - $('.projectnumbercontainer .arrow-project').width() - 15);
-
+        $('.tile-big').removeClass('tile-big').addClass('tile-small tile-big-disabled');
+    } else {
+        $('.tile-big-disabled').removeClass('tile-small tile-big-disabled').addClass('tile-big');
     }
-
 }
 
 
@@ -308,9 +299,9 @@ function repaintMe() {
 $(document).ready(function () {
 
     $('.languagetoggle').on('click', function() {
-        document.location.href = $(this).data('href');
+        window.location.href = $(this).data('href');
     });
-    
+
     repaintMe();
     window.onresize = function () {
         repaintMe();
@@ -322,7 +313,7 @@ $(document).ready(function () {
             'margin-left': 2000
         }, 500, function () {
             $('.cookiewarning').slideUp(200);
-            updateConsent();
+            window.updateConsent && window.updateConsent();
         });
     });
     // get more info about cookies
@@ -330,7 +321,7 @@ $(document).ready(function () {
         window.open('http://danesjenovdan.si/en/cookies/', '_blank');
     });
 
-    if (window.touchcheck()) {
+    if (window.androidcheck()) {
         $('.polaroid .image').addClass('hover');
     }
 
@@ -401,7 +392,7 @@ $(document).ready(function () {
 
     $('.popupopen').on('click', function () {
 
-        //        document.location.href = document.location.href + '#popup-' + $(this).data('href');
+        //        window.location.href = window.location.href + '#popup-' + $(this).data('href');
 
         $('.popup').height($(window).height());
         $('#' + $(this).data('href')).addClass('open');
@@ -432,11 +423,15 @@ $(document).ready(function () {
 
         $('.popup').height($(window).height());
         $('#' + $(this).data('href')).addClass('open');
+        window.location.hash = 'popup-' + $(this).data('href');
         return false;
     });
 
     $('.popupclose, .btn-zapri').on('click', function () {
         $('.popup').removeClass('open');
+        var scr = document.body.scrollTop;
+        window.location.hash = "";
+        document.body.scrollTop = scr;
     });
 
     $('.btn-projekt').on('click', function () {
@@ -514,7 +509,7 @@ $(document).ready(function () {
             'eventLabel': 'facebook'
         });
 
-        url = 'https://www.facebook.com/dialog/share?app_id=301375193309601&display=popup&href=' + encodeURIComponent(document.location.href) + '&redirect_uri=' + encodeURIComponent(document.location.href) + '&ref=responsive';
+        url = 'https://www.facebook.com/dialog/share?app_id=301375193309601&display=popup&href=' + encodeURIComponent(window.location.href) + '&redirect_uri=' + encodeURIComponent(window.location.href) + '&ref=responsive';
         window.open(url, '_blank');
         return false;
     });
@@ -527,12 +522,12 @@ $(document).ready(function () {
             'eventLabel': 'twitter'
         });
 
-        url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title + ' ' + document.location.href);
+        url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title + ' ' + window.location.href);
         window.open(url, '_blank');
         return false;
     });
     $('.gp').on('click', function () {
-        url = 'https://plus.google.com/share?url=' + document.title + ' ' + encodeURIComponent(document.location.href);
+        url = 'https://plus.google.com/share?url=' + document.title + ' ' + encodeURIComponent(window.location.href);
         window.open(url, '_blank');
         ga('send', 'event', 'social', 'gplus');
         return false;
@@ -548,7 +543,7 @@ $(document).ready(function () {
 
     $('.tile').not('.tile-obcasnik-full, .tile-project, #tile-video, .tile-stream, .tile-nolink').on('click', function () {
         if (!$(this).data('target')) {
-            document.location.href = $(this).data('href');
+            window.location.href = $(this).data('href');
         } else {
             window.open($(this).data('href'), '_blank')
         }
@@ -584,7 +579,7 @@ $(document).ready(function () {
             'eventLabel': 'landing'
         });
 
-        document.location.href = 'http://danesjenovdan.si/en/'
+        window.location.href = 'http://danesjenovdan.si/en/'
     });
 
     $('#menuclose').on('click', function () {
@@ -632,7 +627,7 @@ $(document).ready(function () {
                 'eventLabel': _this.data('menu')
             });
 
-            document.location.href = 'http://agrument.danesjenovdan.si/';
+            window.location.href = 'http://agrument.danesjenovdan.si/';
         });
     });
     $('.menuitem').not('menuitem-agrument').on('click', function () {
@@ -650,7 +645,7 @@ $(document).ready(function () {
             //                    'scrollTop': $('#footer').offset().top
             //                }, 500);
 
-            if (document.location.href.indexOf(_this.data('menu')) === -1) {
+            if (window.location.href.indexOf(_this.data('menu')) === -1) {
 
                 ga('send', {
                     'hitType': 'event',
@@ -659,7 +654,7 @@ $(document).ready(function () {
                     'eventLabel': _this.data('menu')
                 });
 
-                document.location.href = 'http://danesjenovdan.si/en/' + _this.data('menu');
+                window.location.href = 'http://danesjenovdan.si/en/' + _this.data('menu');
             } else {
                 $('#menu, #obcasnik').animate({
                     'top': 0
@@ -715,11 +710,9 @@ $(document).ready(function () {
                 }, function (res) {});
             });
         }
-        $.post('https://djnd.slack.com/services/hooks/incoming-webhook?token=EApBJ7B21GFJmytVv5ZoNqoV',
+        $.post('https://hooks.slack.com/services/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',
             JSON.stringify({
-                'channel': '#api-monitor',
-                'username': 'Apinator',
-                'text': 'Yo Filip! Nekdo se je sign-upal na newsletter.',
+                'text': 'Yo @channel! Nekdo se je sign-upal na newsletter.',
                 'attachments': [
                     {
                         'fallback': 'Your client is stupid, go vote.',
@@ -753,7 +746,7 @@ $(document).ready(function () {
             'eventLabel': 'podpri_nas'
         });
 
-        location.href = '/dolzni'
+        window.location.href = '/dolzni'
     });
 
     $('#izkaznica > a').on('click', function () {
@@ -791,7 +784,7 @@ $(document).ready(function () {
     });
 
     $('#polaroidti').on('click', function () {
-        document.location.href = $(this).data('href');
+        window.location.href = $(this).data('href');
     });
 
     $('.harmonikatitle').on('click', function () {
@@ -829,14 +822,25 @@ $(document).ready(function () {
     });
 
     $(document).on('keyup', function (e) {
-        if (e.keyCode == 27) {
+        if (e.keyCode == 27) { // 27 == ESC key
             if ($('#megavideo').length) {
                 $('#megavideo').removeClass('open');
                 player.api('pause');
             }
             $('.popup').removeClass('open');
+            var scr = document.body.scrollTop;
+            window.location.hash = "";
+            document.body.scrollTop = scr;
         }
     });
+
+    window.addEventListener("hashchange", function (e) {
+        if (window.location.hash.indexOf("#popup-") === 0) {
+            var id = window.location.hash.slice(7);
+            $('.popup').removeClass('open');
+            $('#' + id + '.popup').addClass("open");
+        }
+    }, false);
 
     $('#submitsignature').on('click', function () {
         if ($('#signaturename').val() != '' && $('#signaturelastname').val() != '' && $('#signatureemail').val() != '') {
@@ -866,11 +870,9 @@ $(document).ready(function () {
                 });
             });
 
-            $.post('https://djnd.slack.com/services/hooks/incoming-webhook?token=EApBJ7B21GFJmytVv5ZoNqoV',
+            $.post('https://hooks.slack.com/services/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',
                 JSON.stringify({
-                    'channel': '#api-monitor',
-                    'username': 'Apinator',
-                    'text': 'Yo Filip! Nekdo je podpisal pravice.',
+                    'text': 'Yo @channel! Nekdo je podpisal pravice.',
                     'attachments': [
                         {
                             'fallback': 'Your client is stupid, go vote.',
@@ -927,7 +929,7 @@ $(document).ready(function () {
     }
 
     $('.arrow-obcasnik-left, .arrow-obcasnik-right, #sendemail').not('.nextproject, .previousproject').on('click', function () {
-        document.location.href = $(this).data('href');
+        window.location.href = $(this).data('href');
     });
 
     // listanje med projekti
@@ -938,6 +940,7 @@ $(document).ready(function () {
 
         window.setTimeout(function () {
             popup.next().addClass('open');
+            window.location.hash = "popup-" + popup.next().attr('id');
         }, 500);
     });
     $('.previousproject').on('click', function () {
@@ -947,6 +950,7 @@ $(document).ready(function () {
 
         window.setTimeout(function () {
             popup.prev().addClass('open');
+            window.location.hash = "popup-" + popup.prev().attr('id');
         }, 500);
 
         return false;
@@ -973,9 +977,9 @@ $(document).ready(function () {
     });
 
     // open popup
-    if (document.location.href.indexOf('#popup-') != '') {
+    if (window.location.href.indexOf('#popup-') != '') {
         $('.popup').height($(window).height());
-        $('#' + document.location.href.split('#popup-')[1]).addClass('open');
+        $('#' + window.location.href.split('#popup-')[1]).addClass('open');
     }
 
     // newsletter show name/lastname
@@ -1185,10 +1189,8 @@ function onPause(id) {
 
 // SLACK API
 function postToSlack(text, title, value, callback) {
-    $.post('https://djnd.slack.com/services/hooks/incoming-webhook?token=EApBJ7B21GFJmytVv5ZoNqoV',
+    $.post('https://hooks.slack.com/services/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',
         JSON.stringify({
-            'channel': '#api-monitor',
-            'username': 'Apinator',
             'text': text,
             'attachments': [
                 {
