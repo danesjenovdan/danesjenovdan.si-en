@@ -109,6 +109,59 @@
             </div>
 
             <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="tile tile-project" id="breakfree" data-href="breakfreeinfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="http://danesjenovdan.si/projekti/img/breakfree.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Break Free</h1>
+                        <p class="projecttiletext">A petition to the Slovenian Government in which, together with a broad coalition of non-governmental partners, we urge those in power to promote and adopet sustainable and green energetic policies. Public money should not be spent on energy dinosaurs but rather for responsible transition from fossil fuels to sustainable sources, for the employees in this sector as well as for encouraging energetic self-sufficiency and establishing infranstructure for the electrification of transport from renewable sources.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
+                                <p class="projectnumbertext js-breakfree-counter-text">More than</p>
+                                <p class="projectnumbernumber js-breakfree-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbertext">signatures</p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="tile tile-project" id="varuhinja" data-href="varuhinjainfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="http://danesjenovdan.si/projekti/img/varuhinja.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Not giving up</h1>
+                        <p class="projecttiletext">Petition for the Ombudsman, in which we invite her to file the Aliens Act in the constitutional review. We believe that the office of the ombudsman should be committed to respecting human rights and that they should do so past pragmatic, economic or ideological interests. It is not permissible that the Aliens Act, whose unconstitutionality and non-compliance with international legal frameworks have been voiced by a number of domestic non-governmental organizations as well as foreign institutions, has been waiting for the Ombudsman's review so long after its adoption by the National Assembly.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
+                                <p class="projectnumbertext">Not reviewed for</p>
+                                <p class="projectnumbernumber js-varuhinja-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbertext">days</p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="tile tile-project" id="ustavimokonje" data-href="ustavimokonjeinfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="http://danesjenovdan.si/projekti/img/ustavimokonje.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Let's hold our horses!</h1>
+                        <p class="projecttiletext">A digital appeal to the Slovenian President Borut Pahor, asking him not to behave as a bureaucrat, but, rather, as a president, who is not afraid of experimenting with his function in order to defend basic human rights. Every human being should acknowledge their responsibility to prevent human rights from being stomped on, whereas the person whose formal position is based on a high degree of symbolic integrity, doubly so. We do not need the president to show us how to do our daily jobs, how to wave the national flag at sporting events or beg for likes on social media. Instead, he should demonstrate to the public how to act ethically despite the apparent obstacles imposed on him by the seemingly unchangeable system.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
+                                <p class="projectnumbertext">Sent</p>
+                                <p class="projectnumbernumber js-ustavimokonje-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbertext">times</p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-4 col-sm-6">
                     <div class="tile tile-project" id="parlameter" data-href="parlameterinfo">
@@ -639,11 +692,93 @@
         </div>
     </div>
 
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="breakfreeinfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <!--<div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">{{prev title}}</div>
+            <div class="icon icon-arrow-left"></div>
+        </div>-->
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Not giving up</div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Break Free</h1>
+                    <p class="popuptext">We participated in the Greenpeace Break Free coalition that lasted from March 13 to 31, organizing a series of events and initiatives whose common goal was to call for an end to fossil fuels. The dirty energy harms our planet, and as if that was not enough, it is also extremely costly. Slovenia, as a signatory to the Paris Agreement, committed to a complete decarbonisation of the energy and industrial sectors by 2050, which means that instead of investing in coal-fired power plants we should accept their inevitable end - and do everything in our power to reach it as soon as possible. This can only be done with timely, rensponsible and sustainable policies, which is exactly what we expect from the Government who instead chooses to pretend as if there is time to spare. The web petition that we designed for Break Free was conceived as a dynamic and user-friendly experience, enhanced also by using our "bot" Šepetalka to inform users in more depth. The project was developed in collaboration with the coallition Break Free (led by Greenpeace Slovenia) and collective Ljudje.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="http://danesjenovdan.si/breakfree/">Check out<br>the web campaign</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="varuhinjainfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Break Free</div>
+            <div class="icon icon-arrow-left"></div>
+        </div>
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Let's hold our horses!</div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Not giving up</h1>
+                    <p class="popuptext">In cooperation with Ljudje, Stripgenerator and Project Seen we gave birth to <a href="http://danesjenovdan.si/sepet/" target="_blank">Šepetalka</a>, which helps users uncover ambiguity in relation to the Aliens Act and points them to its unconstitutionality and infringements of international conventions on human rights. The user-friendly web experience provides organised and well-structured information, to which a petition to the Ombudsman is appended. In the petition, we urge the Ombudsman to cease her passive stance and immediately file the Aliens Act in the constitutional review. For those familiar with the content of the contested law, we created a simple website where one can easily sign the petition. The petition with over 1400 signatures was already handed over to the Omudsman, whose PR department responded with an arrogant lesson on the autonomy of the ombudsman institution. Apparently, we live in a country where it is considered obscene to call public officials accountable for (in)efficient and (un)timely doing of their jobs.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="http://danesjenovdan.si/varuhinja/">Check out<br>the petition</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="ustavimokonjeinfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Not giving up</div>
+            <div class="icon icon-arrow-left"></div>
+        </div>
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Parlameter</div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Let's hold our horses!</h1>
+                    <p class="popuptext">The outrage upon the adoption of the unconstitutional Aliens Act resulted in an appeal to the President of the Republic of Slovenia Borut Pahor. The public demanded of him to act ethically, so we invited him to defend human rights even when that might pose a threat to his own privilege. The office of President indeed presupposes promulgating laws regardless of whether the person holding the position agrees with them or not, but it is also possible to think the presidency beyond political pragmatism and established habits. If the president refused to promulgate the Aliens Act, he would indeed risk dismissal in the Parliament, but would gain much in terms of human integrity and symbolic authority. The President's Office rejected such an act of rebellion as impossible, but this judgment applies only within the assumption that Pahor should remain in function no matter what, continuing his non-conceptual behaviour to provide support for the next nomination. We believe it would be much more presidential of him to risk his job for defending human rights, instead of spending his time collecting likes on social networks.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="http://danesjenovdan.si/ustavimokonje/">Check out<br>the web campaign</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="popup popup-projekt popup-red centermycontentvertically" id="parlameterinfo">
         <div class="popupclose">
             <div class="icon-close"></div>
         </div>
 
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Let's hold our horses!</div>
+            <div class="icon icon-arrow-left"></div>
+        </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
             <div class="titlenext titlenext-right">Think different heroes</div>
             <div class="icon icon-arrow-right"></div>
@@ -1303,7 +1438,7 @@
     <script src="/js/nsa.js"></script>
 
     <!-- frontend magic -->
-    <script src="../js/front_eng.js"></script>
+    <script src="../js/front_eng.js?20170412"></script>
 
 
     <!-- Google Universal Analytics -->

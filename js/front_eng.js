@@ -1173,15 +1173,17 @@ function makeConfetti(is_first) {
 window.currentConfettis = 0;
 
 // vimeo
-player = $f($('#thevideo')[0]);
-player.addEvent('ready', function () {
-    player.addEvent('pause', onPause);
-    console.log(player);
-});
+if (window.$f) {
+    player = $f($('#thevideo')[0]);
+    player.addEvent('ready', function () {
+        player.addEvent('pause', onPause);
+        console.log(player);
+    });
 
-function onPause(id) {
-    $('#megavideo').removeClass('open');
-    $('.popup').removeClass('open');
+    function onPause(id) {
+        $('#megavideo').removeClass('open');
+        $('.popup').removeClass('open');
+    }
 }
 
 
@@ -1211,3 +1213,30 @@ function postToSlack(text, title, value, callback) {
             callback();
         });
 }
+
+
+
+
+// BREAK FREE COUNTER
+var maxSignatures = 4600;
+$.ajax({
+  url: 'http://djnd-test.lepko.net/podpisek/?k=breakfree&count',
+  success: function (res) {
+    var count = parseInt(res, 10);
+    if (!isNaN(count)) {
+      $('.js-breakfree-counter').text(((count / 10) | 0) * 10);
+    }
+  },
+  error: function () {
+    $('.js-breakfree-counter').text(4600);
+  },
+});
+
+// VARUHINJA COUNTER
+var varuhinjaStart = new Date(2017, 0, 26).getTime();
+var varuhinjaNow = new Date().getTime();
+var varuhinjaDays = (varuhinjaNow - varuhinjaStart) / 1000 / 60 / 60 / 24;
+$('.js-varuhinja-counter').text(varuhinjaDays|0);
+
+// USTAVIMO KONJE COUNTER
+$('.js-ustavimokonje-counter').load('http://djnd.webfactional.com/counter/getcount/?name=pahor1');
