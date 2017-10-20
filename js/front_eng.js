@@ -746,7 +746,7 @@ $(document).ready(function () {
             'eventLabel': 'podpri_nas'
         });
 
-        window.location.href = '/dolzni'
+        window.location.href = '/en/support/'
     });
 
     $('#izkaznica > a').on('click', function () {
