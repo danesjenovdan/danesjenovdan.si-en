@@ -111,6 +111,24 @@
             <div class="row">
 
                 <div class="col-md-4 col-sm-6">
+                    <div class="tile tile-project" id="ahmad" data-href="ahmadinfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="http://danesjenovdan.si/projekti/img/ahmad.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Ahmad must stay</h1>
+                        <p class="projecttiletext">We published Ambasada Rog's petition to the Ministry of the Interior, requesting to stop the deportation of Syrian refugee Ahmad Shamieh. Public pressure was enough for a two-day interruption of the proceedings, but on November 16 the government decided that Shamieh should nevertheless leave.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
+                                <p class="projectnumbertext">Signed by</p>
+                                <p class="projectnumbernumber js-ahmad-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbertext">people</p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-4 col-sm-6">
                     <div class="tile tile-project" id="miksersoocenj" data-href="miksersoocenjinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="http://danesjenovdan.si/projekti/img/mikser-soocenj.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Debate mixer</h1>
@@ -125,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                     <div class="col-md-4 col-sm-6">
                             <div class="tile tile-project" id="razglednica" data-href="razglednicainfo">
@@ -171,7 +189,7 @@
                         <div class="projectnumbercontainer">
                             <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
                                 <p class="projectnumbertext js-breakfree-counter-text">More than</p>
-                                <p class="projectnumbernumber js-breakfree-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbernumber js-breakfree-counter" style="font-size: 28px; line-height: 60px">5250</p>
                                 <p class="projectnumbertext">signatures</p>
                             </div>
                             <div class="arrow-down-right bck-red arrow-project">
@@ -207,7 +225,7 @@
                         <div class="projectnumbercontainer">
                             <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
                                 <p class="projectnumbertext">Sent</p>
-                                <p class="projectnumbernumber js-ustavimokonje-counter" style="font-size: 28px; line-height: 60px">{{counter}}</p>
+                                <p class="projectnumbernumber js-ustavimokonje-counter" style="font-size: 28px; line-height: 60px">826</p>
                                 <p class="projectnumbertext">times</p>
                             </div>
                             <div class="arrow-down-right bck-red arrow-project">
@@ -746,15 +764,42 @@
         </div>
     </div>
 
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="ahmadinfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <!-- <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">{{prev title}}</div>
+            <div class="icon icon-arrow-left"></div>
+        </div> -->
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Debate mixer</div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Ahmad must stay</h1>
+                    <p class="popuptext">In November 2017, Slovenia was divided by a story of tragic personal fate, which demonstrated the validity of <i>the personal is political</i> motto. The Slovene bureaucratic apparatus showed that it chooses to respect the Dublin Regulation, when it needs to justify returning asylum seekers to Croatia, but not so much when it would be possible (and humane) to use its discretionary clause to handle individual cases.<br>
+                    Refugee Shamieh came to the country through a humanitarian corridor. He never applied for asylum in Croatia. During his 1.5-year stay in Slovenia, he learned the language and integrated into society. He was especially active as one of the initiators of the Rog Embassy, he acted as a volunteer, working with refugees and addressing social issues, and he also had a crucial role in two projects of the Ministry of culture. Rather than using his story as an example of a desirable integration practice, and rewarding him for his contribution to our society at least with a residence permit, the Ministry of the Interior simply decided to dismiss his application for asylum.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="http://danesjenovdan.si/ahmad/">View the<br> petition</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="popup popup-projekt popup-red centermycontentvertically" id="miksersoocenjinfo">
         <div class="popupclose">
             <div class="icon-close"></div>
         </div>
 
-        <!--<div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">{{prev title}}</div>
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Ahmad must stay</div>
             <div class="icon icon-arrow-left"></div>
-        </div>-->
+        </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
             <div class="titlenext titlenext-right">Postcard from Vis</div>
             <div class="icon icon-arrow-right"></div>
@@ -1572,7 +1617,7 @@
     <script src="/js/nsa.js"></script>
 
     <!-- frontend magic -->
-    <script src="../js/front_eng.js?20170412"></script>
+    <script src="../js/front_eng.js?18v2"></script>
 
 
     <!-- Google Universal Analytics -->
