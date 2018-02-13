@@ -294,12 +294,32 @@ function repaintMe() {
     }
 }
 
+langLinkMapping = {
+    projects: 'projekti',
+    people: 'krivi',
+    support: 'dolzni',
+    consensus: 'konsenz',
+    formalities: 'formalnosti',
+}
+
+function onLanguageToggle() {
+    var path = window.location.pathname;
+    path = path.slice(4, path.indexOf('/', 4));
+    if (path === '') {
+        window.location.href = '/';
+    } else if (langLinkMapping[path]) {
+        window.location.href = '/' + langLinkMapping[path];
+    } else {
+        window.location.href = $(this).data('href');
+    }
+}
 
 // document ready
 $(document).ready(function () {
 
-    $('.languagetoggle').on('click', function() {
-        window.location.href = $(this).data('href');
+    $('.languagetoggle').on('click', function(event) {
+        event.preventDefault();
+        onLanguageToggle();
     });
 
     repaintMe();
