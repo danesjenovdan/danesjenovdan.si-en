@@ -1243,10 +1243,4 @@ function postToSlack(text, title, value, callback) {
         });
 }
 
-// VARUHINJA COUNTER
-var varuhinjaStart = new Date(2017, 0, 26).getTime();
-var varuhinjaNow = new Date().getTime();
-var varuhinjaDays = (varuhinjaNow - varuhinjaStart) / 1000 / 60 / 60 / 24;
-$('.js-varuhinja-counter').text(varuhinjaDays|0);
-
 $('.js-ahmad-counter').load('http://djapi.knedl.si/getNumberOfSignatures/?peticija=ahmad');
