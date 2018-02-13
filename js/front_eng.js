@@ -492,7 +492,7 @@ $(document).ready(function () {
                 'eventLabel': 'github'
             });
             break;
-        case 'http://vimeo.com/user26914674':
+        case 'https://vimeo.com/user26914674':
             ga('send', {
                 'hitType': 'event',
                 'eventCategory': document.title,
