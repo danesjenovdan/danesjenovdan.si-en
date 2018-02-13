@@ -787,13 +787,13 @@ $(document).ready(function () {
         window.location.href = $(this).data('href');
     });
 
-    $('.harmonikatitle').on('click', function () {
+    $('.harmonikatitle').on('click', function() {
         if (!$(this).parent().parent().next().children().children('.harmonikacontent').hasClass('open')) {
             $(this).parent().parent().next().children().children('.harmonikacontent').addClass('open');
-            $(this).children('.plus').text('-');
+            $(this).addClass('open');
         } else {
             $(this).parent().parent().next().children().children('.harmonikacontent').removeClass('open');
-            $(this).children('.plus').text('+');
+            $(this).removeClass('open');
         }
         return false;
     });
@@ -1022,6 +1022,15 @@ $(document).ready(function () {
     });
     $('#poslovno2013').on('click', function () {
         window.open('./dokumenti/2013/Poslovno%20porocilo%202013.pdf', '_blank');
+    });
+    $('#poslovno2014').on('click', function() {
+        window.open('./dokumenti/2014/Poslovno%20porocilo%202014.pdf', '_blank');
+    });
+    $('#poslovno2015').on('click', function() {
+        window.open('./dokumenti/2015/Poslovno%20porocilo%202015.pdf', '_blank');
+    });
+    $('#poslovno2016').on('click', function() {
+        window.open('./dokumenti/2016/Poslovno%20porocilo%202016.pdf', '_blank');
     });
 
 
