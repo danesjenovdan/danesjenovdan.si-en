@@ -338,7 +338,7 @@ $(document).ready(function () {
     });
     // get more info about cookies
     $('.cookiemoreinfo').on('click', function () {
-        window.open('http://danesjenovdan.si/en/cookies/', '_blank');
+        window.open('/en/cookies/', '_blank');
     });
 
     if (window.androidcheck()) {
@@ -599,7 +599,7 @@ $(document).ready(function () {
             'eventLabel': 'landing'
         });
 
-        window.location.href = 'http://danesjenovdan.si/en/'
+        window.location.href = '/en/'
     });
 
     $('#menuclose').on('click', function () {
@@ -674,7 +674,7 @@ $(document).ready(function () {
                     'eventLabel': _this.data('menu')
                 });
 
-                window.location.href = 'http://danesjenovdan.si/en/' + _this.data('menu');
+                window.location.href = '/en/' + _this.data('menu');
             } else {
                 $('#menu, #obcasnik').animate({
                     'top': 0
@@ -1056,19 +1056,19 @@ $(document).ready(function () {
 
     // dolzni popups across the site
     $('.dajmiredno').on('click', function () {
-        window.open('http://danesjenovdan.si/dolzni/#popup-velikaplacapopup', '_blank');
+        window.open('/dolzni/#popup-velikaplacapopup', '_blank');
     });
     $('.dajmienkrat').on('click', function () {
-        window.open('http://danesjenovdan.si/dolzni/#popup-velikosrcepopup', '_blank');
+        window.open('/dolzni/#popup-velikosrcepopup', '_blank');
     });
     $('.dajminaturalije').on('click', function () {
-        window.open('http://danesjenovdan.si/dolzni/#popup-naturalijepopup', '_blank');
+        window.open('/dolzni/#popup-naturalijepopup', '_blank');
     });
     $('.dajmirizle').on('click', function () {
-        window.open('http://danesjenovdan.si/dolzni/#popup-rizlepopup', '_blank');
+        window.open('/dolzni/#popup-rizlepopup', '_blank');
     });
     $('.dajmimajico').on('click', function () {
-        window.open('http://danesjenovdan.si/dolzni/#popup-majicapopup', '_blank');
+        window.open('/dolzni/#popup-majicapopup', '_blank');
     });
 
     // fancybox
