@@ -176,38 +176,38 @@ if (document.createElement('svg').getAttributeNS) {
             svg = el.parentNode.querySelector('svg');
 
         switch (type) {
-        case 'cross':
-            pathDef = pathDefs.cross;
-            animDef = animDefs.cross;
-            break;
-        case 'fill':
-            pathDef = pathDefs.fill;
-            animDef = animDefs.fill;
-            break;
-        case 'checkmark':
-            pathDef = pathDefs.checkmark;
-            animDef = animDefs.checkmark;
-            break;
-        case 'circle':
-            pathDef = pathDefs.circle;
-            animDef = animDefs.circle;
-            break;
-        case 'boxfill':
-            pathDef = pathDefs.boxfill;
-            animDef = animDefs.boxfill;
-            break;
-        case 'swirl':
-            pathDef = pathDefs.swirl;
-            animDef = animDefs.swirl;
-            break;
-        case 'diagonal':
-            pathDef = pathDefs.diagonal;
-            animDef = animDefs.diagonal;
-            break;
-        case 'list':
-            pathDef = pathDefs.list;
-            animDef = animDefs.list;
-            break;
+            case 'cross':
+                pathDef = pathDefs.cross;
+                animDef = animDefs.cross;
+                break;
+            case 'fill':
+                pathDef = pathDefs.fill;
+                animDef = animDefs.fill;
+                break;
+            case 'checkmark':
+                pathDef = pathDefs.checkmark;
+                animDef = animDefs.checkmark;
+                break;
+            case 'circle':
+                pathDef = pathDefs.circle;
+                animDef = animDefs.circle;
+                break;
+            case 'boxfill':
+                pathDef = pathDefs.boxfill;
+                animDef = animDefs.boxfill;
+                break;
+            case 'swirl':
+                pathDef = pathDefs.swirl;
+                animDef = animDefs.swirl;
+                break;
+            case 'diagonal':
+                pathDef = pathDefs.diagonal;
+                animDef = animDefs.diagonal;
+                break;
+            case 'list':
+                pathDef = pathDefs.list;
+                animDef = animDefs.list;
+                break;
         };
 
         paths.push(document.createElementNS('http://www.w3.org/2000/svg', 'path'));
@@ -317,7 +317,7 @@ function onLanguageToggle() {
 // document ready
 $(document).ready(function () {
 
-    $('.languagetoggle').on('click', function(event) {
+    $('.languagetoggle').on('click', function (event) {
         event.preventDefault();
         onLanguageToggle();
     });
@@ -468,54 +468,54 @@ $(document).ready(function () {
     $('.social, .btn-projekt').on('click', function () {
 
         switch ($(this).data('href')) {
-        case 'https://www.facebook.com/danesjenovdan':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'facebook'
-            });
-            break;
-        case 'https://twitter.com/danesjenovdan':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'twitter'
-            });
-            break;
-        case 'https://github.com/danesjenovdan':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'github'
-            });
-            break;
-        case 'https://vimeo.com/user26914674':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'vimeo'
-            });
-            break;
-        case 'https://www.youtube.com/channel/UCWMqx3p_QtWjdDRq58Hfh_w':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'youtube'
-            });
-            break;
-        case 'http://agrument.danesjenovdan.si/rss/':
-            ga('send', {
-                'hitType': 'event',
-                'eventCategory': document.title,
-                'eventAction': 'footer_click',
-                'eventLabel': 'agrument_rss'
-            });
-            break;
+            case 'https://www.facebook.com/danesjenovdan':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'facebook'
+                });
+                break;
+            case 'https://twitter.com/danesjenovdan':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'twitter'
+                });
+                break;
+            case 'https://github.com/danesjenovdan':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'github'
+                });
+                break;
+            case 'https://vimeo.com/user26914674':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'vimeo'
+                });
+                break;
+            case 'https://www.youtube.com/channel/UCWMqx3p_QtWjdDRq58Hfh_w':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'youtube'
+                });
+                break;
+            case 'http://agrument.danesjenovdan.si/rss/':
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': document.title,
+                    'eventAction': 'footer_click',
+                    'eventLabel': 'agrument_rss'
+                });
+                break;
         }
 
         window.open($(this).data('href'), '_blank')
@@ -685,7 +685,6 @@ $(document).ready(function () {
 
     $('#submitemail').on('click', function () {
         if ($('.hider').hasClass('open')) {
-
             ga('send', {
                 'hitType': 'event',
                 'eventCategory': document.title,
@@ -693,41 +692,13 @@ $(document).ready(function () {
                 'eventLabel': 'pravice',
                 'eventValue': 1
             });
-
-            $.post('http://djapi.danesjenovdan.si/nsa/updatevictimsignature', {
-                'id': $.cookie('djndid'),
-                'signature': 1
-            }, function (r) {
-                $.post('http://djapi.danesjenovdan.si/nsa/updatevictimemail', {
-                    'id': $.cookie('djndid'),
-                    'email': $('#newsletteremail').val()
-                }, function (re) {
-                    $.post('http://djapi.danesjenovdan.si/nsa/updatevictimnamelastname', {
-                        'id': $.cookie('djndid'),
-                        'name': $('#newslettername').val().split(' ')[0],
-                        'lastname': $('#newslettername').val().split(' ')[1],
-                    }, function (res) {});
-                });
-            });
         } else {
-
             ga('send', {
                 'hitType': 'event',
                 'eventCategory': document.title,
                 'eventAction': 'signup',
                 'eventLabel': 'pravice',
                 'eventValue': 0
-            });
-
-            $.post('http://djapi.danesjenovdan.si/nsa/updatevictimemail', {
-                'id': $.cookie('djndid'),
-                'email': $('#newsletteremail').val()
-            }, function (re) {
-                $.post('http://djapi.danesjenovdan.si/nsa/updatevictimnamelastname', {
-                    'id': $.cookie('djndid'),
-                    'name': $('#newslettername').val().split(' ')[0],
-                    'lastname': $('#newslettername').val().split(' ')[1],
-                }, function (res) {});
             });
         }
         $.post('https://hooks.slack.com/services/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',
@@ -743,10 +714,10 @@ $(document).ready(function () {
                                 'title': $('#newsletteremail').val(),
                                 'value': 'Podpis? ' + $('#dodajme').val(),
                                 'short': false
-       }
-      ]
-     }
-    ]
+                            }
+                        ]
+                    }
+                ]
             }), function (r) {
                 startConfetti();
                 window.setTimeout(function () {
@@ -807,7 +778,7 @@ $(document).ready(function () {
         window.location.href = $(this).data('href');
     });
 
-    $('.harmonikatitle').on('click', function() {
+    $('.harmonikatitle').on('click', function () {
         if (!$(this).parent().parent().next().children().children('.harmonikacontent').hasClass('open')) {
             $(this).parent().parent().next().children().children('.harmonikacontent').addClass('open');
             $(this).addClass('open');
@@ -874,22 +845,6 @@ $(document).ready(function () {
                 'eventValue': 1
             });
 
-            $.post('http://djapi.danesjenovdan.si/nsa/updatevictimsignature', {
-                'id': $.cookie('djndid'),
-                'signature': 1
-            }, function (r) {
-                $.post('http://djapi.danesjenovdan.si/nsa/updatevictimnamelastname', {
-                    'id': $.cookie('djndid'),
-                    'name': $('#signaturename').val(),
-                    'lastname': $('#signaturelastname').val()
-                }, function (re) {
-                    $.post('http://djapi.danesjenovdan.si/nsa/updatevictimemail', {
-                        'id': $.cookie('djndid'),
-                        'email': $('#signatureemail').val()
-                    });
-                });
-            });
-
             $.post('https://hooks.slack.com/services/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',
                 JSON.stringify({
                     'text': 'Yo @channel! Nekdo je podpisal pravice.',
@@ -903,19 +858,16 @@ $(document).ready(function () {
                                     'title': $('#signaturename').val() + ' ' + $('#signaturelastname').val(),
                                     'value': 'Email: ' + $('#signatureemail').val() + ' // Newsletter? ' + $('#newsletteryes').val(),
                                     'short': false
-        }
-       ]
-      }
-     ]
+                                }
+                            ]
+                        }
+                    ]
                 }), function (r) {
-                    console.log(r);
                     $('#podpisipravice').parent().height($('#podpisipravice').parent().height());
                     $('#podpisipravice').slideUp(500, function () {
                         $('#hvalapravice').slideDown();
                     });
-
                     startConfetti();
-
                 });
         } else {
             $('form').shake();
@@ -1043,13 +995,13 @@ $(document).ready(function () {
     $('#poslovno2013').on('click', function () {
         window.open('./dokumenti/2013/Poslovno%20porocilo%202013.pdf', '_blank');
     });
-    $('#poslovno2014').on('click', function() {
+    $('#poslovno2014').on('click', function () {
         window.open('./dokumenti/2014/Poslovno%20porocilo%202014.pdf', '_blank');
     });
-    $('#poslovno2015').on('click', function() {
+    $('#poslovno2015').on('click', function () {
         window.open('./dokumenti/2015/Poslovno%20porocilo%202015.pdf', '_blank');
     });
-    $('#poslovno2016').on('click', function() {
+    $('#poslovno2016').on('click', function () {
         window.open('./dokumenti/2016/Poslovno%20porocilo%202016.pdf', '_blank');
     });
 
@@ -1233,10 +1185,10 @@ function postToSlack(text, title, value, callback) {
                             'title': title,
                             'value': value,
                             'short': false
-                           }
-                       ]
-                   }
-               ]
+                        }
+                    ]
+                }
+            ]
         }),
         function (r) {
             callback();
