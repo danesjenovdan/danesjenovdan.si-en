@@ -1195,4 +1195,4 @@ function postToSlack(text, title, value, callback) {
         });
 }
 
-$('.js-ahmad-counter').load('http://djapi.knedl.si/getNumberOfSignatures/?peticija=ahmad');
+$('.js-ahmad-counter').load('https://djapi.knedl.si/getNumberOfSignatures/?peticija=ahmad');
