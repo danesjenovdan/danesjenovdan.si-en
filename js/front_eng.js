@@ -508,7 +508,7 @@ $(document).ready(function () {
                     'eventLabel': 'youtube'
                 });
                 break;
-            case 'http://agrument.danesjenovdan.si/rss/':
+            case 'https://agrument.danesjenovdan.si/rss/':
                 ga('send', {
                     'hitType': 'event',
                     'eventCategory': document.title,
@@ -647,7 +647,7 @@ $(document).ready(function () {
                 'eventLabel': _this.data('menu')
             });
 
-            window.location.href = 'http://agrument.danesjenovdan.si/';
+            window.location.href = 'https://agrument.danesjenovdan.si/';
         });
     });
     $('.menuitem').not('menuitem-agrument').on('click', function () {
@@ -885,16 +885,16 @@ $(document).ready(function () {
         return false;
     });
 
-    $.get('http://agrument.danesjenovdan.si/getwordcount/', function (r) {
+    $.get('https://agrument.danesjenovdan.si/getwordcount/', function (r) {
         $('#agrument .projectnumbernumber').text(r);
     });
 
-    $.get('http://agrument.danesjenovdan.si/getlastagrument/', function (r) {
+    $.get('https://agrument.danesjenovdan.si/getlastagrument/', function (r) {
         $('#lastagrument').children('.agrumenttitle').text(r);
     });
 
     if ($(window).width() > 991) {
-        $.get('http://agrument.danesjenovdan.si/getlastagrumenttextsmall/', function (r) {
+        $.get('https://agrument.danesjenovdan.si/getlastagrumenttextsmall/', function (r) {
             $('#lastagrument').children('.agrumenttitle').after(r);
             $('#lastagrument .agrumenttitle + p').addClass('tiletext');
         })
