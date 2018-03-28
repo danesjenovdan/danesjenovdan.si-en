@@ -183,11 +183,11 @@
                             <div class="tile tile-project" id="breakfree" data-href="grafitinfo">
                                 <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/spomenik.png" style="max-width:auto"></div>
                                 <h1 class="projecttiletitle">Tagged yet?</h1>
-                                <p class="projecttiletext">In July 2017, on the Congress Square in Ljubljana, a monument to the victims of all wars was erected in an inappropriate and inadmissible intertwine of church and state ceremonies. On two concrete blocks, equal in volume and different in appearance, there is neither clear message nor climbing holds. We expect graffiti.</p>
+                                <p class="projecttiletext">In July 2017, on the Congress Square in Ljubljana, a monument to the victims of all wars was erected in an inappropriate and inadmissible intertwine of church and state ceremonies. On two concrete blocks, equal in volume and different in appearance, there is neither clear message nor climbing holds. Graffiti was to be expected ...</p>
                                 <div class="projectnumbercontainer">
                                     <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
-                                        <p class="projectnumbertext">Waiting for graffiti for</p>
-                                        <p class="projectnumbernumber grafitnumber" style="font-size: 28px; line-height: 60px">{{grafitcounter}}</p>
+                                        <p class="projectnumbertext">We waited for graffiti for</p>
+                                        <p class="projectnumbernumber grafitnumber" style="font-size: 28px; line-height: 60px">226</p>
                                         <p class="projectnumbertext">days</p>
                                     </div>
                                     <div class="arrow-down-right bck-red arrow-project">
@@ -1768,15 +1768,6 @@
         })('00');
     </script>
     <!-- end of better pageview tracking -->
-
-    <script>
-        var then = new Date(2017, 06, 13); // month is zero based
-        var now  = new Date;               // no arguments -> current date
-
-        // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
-        $('.grafitnumber').text(Math.round((now - then) / (1000 * 60 * 60 * 24))); // round the amount of days
-        // result: 712
-    </script>
 
 </body>
 
