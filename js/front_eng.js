@@ -340,6 +340,10 @@ $(document).ready(function () {
     $('.cookiemoreinfo').on('click', function () {
         window.open('/en/cookies/', '_blank');
     });
+    // hide cookies banner if consented
+    if (window.getConsent && window.getConsent()) {
+        $('.cookiewarning').hide();
+    }
 
     if (window.androidcheck()) {
         $('.polaroid .image').addClass('hover');
