@@ -3,7 +3,7 @@
     var date = $(element).parent().parent().parent().parent().data('date').trim();
     $.ajax({
       method: "POST",
-      url: "http://www.djnd.si/yomamasofat/",
+      url: "https://djnd.si/yomamasofat/",
       data: {
         fatmama: 'https://agrument.danesjenovdan.si/' + date + '/'
       },
