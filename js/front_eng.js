@@ -1200,3 +1200,7 @@ function postToSlack(text, title, value, callback) {
 }
 
 $('.js-ahmad-counter').load('https://djapi.knedl.si/getNumberOfSignatures/?peticija=ahmad');
+
+$.getJSON('https://djapi.knedl.si/getKuraSignatures/', function(r) {
+  $('.js-kura-counter').text(r.counter);
+});
