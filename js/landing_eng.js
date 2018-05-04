@@ -154,7 +154,7 @@
     },
   }
 
-  $.getJSON('https://djapi.knedl.si/djndLanding/ANG_projects/3/')
+  $.getJSON('https://djapi.djnd.si/djndLanding/ANG_projects/3/')
     .done(function (json) {
       if (json.status != 'OK') {
         return;
@@ -179,14 +179,14 @@
   //     fetchAgrumentShortUrl(urlElement);
   //   });
 
-  $.getJSON('https://djapi.knedl.si/djndLanding/ANG_parlameter/1/')
+  $.getJSON('https://djapi.djnd.si/djndLanding/ANG_parlameter/1/')
     .done(function (data) {
       var container = $('#landing-append-parlameter');
       var tile = templates.makeParlameterTile(data.title, data.label, data.url);
       container.append(tile);
     });
 
-  $.getJSON('https://djapi.knedl.si/djndLanding/ANG_news/4/')
+  $.getJSON('https://djapi.djnd.si/djndLanding/ANG_news/4/')
     .done(function (json) {
       if (json.status != 'OK') {
         return;
