@@ -1008,6 +1008,9 @@ $(document).ready(function () {
     $('#poslovno2016').on('click', function () {
         window.open('./dokumenti/2016/Poslovno%20porocilo%202016.pdf', '_blank');
     });
+    $('#poslovno2017').on('click', function () {
+        window.open('/formalnosti/dokumenti/2017/Poslovno%20porocilo%202017.pdf', '_blank');
+    });
 
 
     // dolzni popups across the site
