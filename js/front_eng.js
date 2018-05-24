@@ -1194,3 +1194,7 @@ $('.js-ahmad-counter').load('https://api.djnd.si/getNumberOfSignatures/?peticija
 $.getJSON('https://api.djnd.si/getKuraSignatures/', function(r) {
   $('.js-kura-counter').text(r.counter);
 });
+
+$('[data-href="signup"]').on('click', function() {
+    window.location.href = '/jaz/';
+});
