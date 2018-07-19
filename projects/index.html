@@ -34,7 +34,7 @@
     <link href="/icons_/icons.css" rel="stylesheet">
 
     <!-- CSS -->
-    <link href="/css/guide.css" rel="stylesheet">
+    <link href="/css/guide.css?180719" rel="stylesheet">
 
     <!-- WP fix -->
     <script>
@@ -52,6 +52,16 @@
 </head>
 
 <body>
+
+    <style>
+        a {
+            color: #704a45;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #704a45;
+        }
+    </style>
 
     <div id="menucontent">
         <div id="menuheader">
@@ -106,9 +116,44 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row flex-row">
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
+                    <div class="tile tile-project tile-project--pinned" id="parlameter" data-href="parlameterinfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="/img/parlameter_slika.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Parlameter</h1>
+                        <p class="projecttiletext">Parlameter is a web tool that provides users with factual justifications for bitching about and/or glorifying the dedication of our MPs. It converts the (now scattered) publicly accessible data into organized information, which is presented in figures and graphs. Parlameter functions as an infrastructure for surpassing the empty, yet popular judgment, that in the Parliament "everybody is the same", replacing it with clearly identifiable similarities and differences between MPs, and equipping users with empirical indicators on which to build interpretations.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
+                                <p class="projectnumbertext">Parlameter is run by more than</p>
+                                <p class="projectnumbernumber" style="font-size: 28px; line-height: 60px">270 000</p>
+                                <p class="projectnumbertext">lines of code</p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-project">
+                    <div id="agrument" class="tile tile-project tile-project--pinned" data-href="agrumentinfo">
+                        <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/agrument.png" style="max-width:auto"></div>
+                        <h1 class="projecttiletitle">Agrument</h1>
+                        <p class="projecttiletext">Daily responses, comments and concerns in 800 characters. Reading the small print with the magnifiying glass, highlighting the footnotes with markers, decrypt brackets, functions and other socio-mathematics.</p>
+                        <div class="projectnumbercontainer">
+                            <div class="projectnumber">
+                                <p class="projectnumbertext">no. of words written</p>
+                                <p class="projectnumbernumber" style="font-size: 42px;"></p>
+                            </div>
+                            <div class="arrow-down-right bck-red arrow-project">
+                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="politicniportret" data-href="politicniportretinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/politicni-portret.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Political portrait</h1>
@@ -126,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="madzarska" data-href="madzarskainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/eszdeesz.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Pre-election video by ESZDÉESZ</h1>
@@ -144,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="uporabljajfacebook" data-href="uporabljajfacebookinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/uporabljaj-facebook.jpg" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">SIGN UP FOR FACEBOOK</h1>
@@ -161,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="kura" data-href="kurainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/vesela-kura-djnd.gif" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">kura.si</h1>
@@ -179,7 +224,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="humansvote" data-href="humansvoteinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/humans-vote.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">humans.vote</h1>
@@ -197,7 +242,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="ahmad" data-href="ahmadinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/ahmad.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Ahmad must stay</h1>
@@ -215,7 +260,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-md-4 col-sm-6">
+                <!-- <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="miksersoocenj" data-href="miksersoocenjinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/mikser-soocenj.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Debate mixer</h1>
@@ -232,7 +277,7 @@
                     </div>
                 </div> -->
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
                             <div class="tile tile-project" id="razglednica" data-href="razglednicainfo">
                                 <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/razglednica-z-visa.png" style="max-width:auto"></div>
                                 <h1 class="projecttiletitle">Postcard from Vis</h1>
@@ -250,7 +295,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-4 col-sm-6 col-project">
                             <div class="tile tile-project" id="breakfree" data-href="grafitinfo">
                                 <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/spomenik.png" style="max-width:auto"></div>
                                 <h1 class="projecttiletitle">Tagged yet?</h1>
@@ -268,7 +313,7 @@
                             </div>
                         </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="breakfree" data-href="breakfreeinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/breakfree.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Break Free</h1>
@@ -286,7 +331,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="varuhinja" data-href="varuhinjainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/varuhinja.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Not giving up</h1>
@@ -304,7 +349,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="ustavimokonje" data-href="ustavimokonjeinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/ustavimokonje.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Let's hold our horses!</h1>
@@ -322,25 +367,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="tile tile-project" id="parlameter" data-href="parlameterinfo">
-                        <div class="obcasniktileimage" style="height:180px;" data-img="/img/parlameter_slika.png" style="max-width:auto"></div>
-                        <h1 class="projecttiletitle">Parlameter</h1>
-                        <p class="projecttiletext">Parlameter is a web tool that provides users with factual justifications for bitching about and/or glorifying the dedication of our MPs. It converts the (now scattered) publicly accessible data into organized information, which is presented in figures and graphs. Parlameter functions as an infrastructure for surpassing the empty, yet popular judgment, that in the Parliament "everybody is the same", replacing it with clearly identifiable similarities and differences between MPs, and equipping users with empirical indicators on which to build interpretations.</p>
-                        <div class="projectnumbercontainer">
-                            <div class="projectnumber" style="padding-top: 15px;padding-bottom: 15px;">
-                                <p class="projectnumbertext">Parlameter is run by more than</p>
-                                <p class="projectnumbernumber" style="font-size: 28px; line-height: 60px">270 000</p>
-                                <p class="projectnumbertext">lines of code</p>
-                            </div>
-                            <div class="arrow-down-right bck-red arrow-project">
-                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="aaron" data-href="aaroninfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/aaron.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Think different heroes</h1>
@@ -357,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="studentskiuspehi" data-href="studentskiuspehiinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/studentskiuspehi.jpg" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Greatest (s)hits of student organising</h1>
@@ -374,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="prostovid" data-href="prostovidinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/prostovid.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Visions of public space</h1>
@@ -391,7 +418,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="alternacija" data-href="alternacijainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/alternacija.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Alternation</h1>
@@ -408,7 +435,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="zar" data-href="zarinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/zar.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Kosher roast</h1>
@@ -425,7 +452,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="jansa" data-href="jansainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/casjeza.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">Vote PRO: Janez Janša</h1>
@@ -442,7 +469,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="neenak" data-href="neenakinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/neenakost.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">Inequality</h1>
@@ -459,7 +486,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="map" data-href="mapinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/omnia_zemljevid.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">OMNIA map</h1>
@@ -476,7 +503,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="bestof" data-href="bestofinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/soocenje.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">Best of: TV debate on gay marriage referendum</h1>
@@ -493,7 +520,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="za" data-href="zainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/vodic_za.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">I want to vote PRO, but ...</h1>
@@ -510,7 +537,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="vandal" data-href="vandalinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/vandalizem.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">Is it vandalism?</h1>
@@ -528,7 +555,7 @@
                 </div>
 
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 col-project">
 						<div class="tile tile-project" id="ninja" data-href="ninjainfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/slepsvet.png" style="max-width:auto"></div>
 							<h1 class="projecttiletitle">Blind net</h1>
@@ -545,7 +572,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="slaughter" data-href="slaughterinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/slaughter.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">(s)laughter</h1>
@@ -564,7 +591,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="heartbleed" data-href="heartbleedinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/heartbleed.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Heartbleed</h1>
@@ -580,7 +607,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="borut" data-href="borutinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/borute.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Et tu, B(o)rute?</h1>
@@ -596,23 +623,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div id="agrument" class="tile tile-project" data-href="agrumentinfo">
-                        <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/agrument.png" style="max-width:auto"></div>
-                        <h1 class="projecttiletitle">Agrument</h1>
-                        <p class="projecttiletext">Daily responses, comments and concerns in 800 characters. Reading the small print with the magnifiying glass, highlighting the footnotes with markers, decrypt brackets, functions and other socio-mathematics.</p>
-                        <div class="projectnumbercontainer">
-                            <div class="projectnumber">
-                                <p class="projectnumbertext">no. of words written</p>
-                                <p class="projectnumbernumber" style="font-size: 42px;"></p>
-                            </div>
-                            <div class="arrow-down-right bck-red arrow-project">
-                                <div class="icon-arrow-down-right icon-arrow-turn-up"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="novsou" data-href="novsouinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/novsou.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">NOV ŠOU</h1>
@@ -628,7 +639,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="homojbog" data-href="homojboginfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/homojbog.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Homojbog</h1>
@@ -644,7 +655,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="danzastudentskoorganiziranje" data-href="danzastudentskoorganiziranjeinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/dan_za_stud_org.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle" style="font-size: 24px; line-height: 24px;">a day for student organising</h1>
@@ -663,7 +674,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="k4" data-href="k4info">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/k4zazmeri.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">K4ever</h1>
@@ -679,7 +690,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="danzavodo" data-href="danzavodoinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/dan_za_vodo.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">A day for water</h1>
@@ -698,7 +709,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="predlogi" data-href="predlogiinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/predlogi.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Suggestions</h1>
@@ -717,7 +728,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="harlemshake" data-href="harlemshakeinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/harlemshake.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Harlem shake</h1>
@@ -736,7 +747,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-project">
                     <div class="tile tile-project" id="zakonopljo" data-href="zakonopljoinfo">
                         <div class="obcasniktileimage" style="height:180px;" data-img="/projekti/img/za_konopljo.png" style="max-width:auto"></div>
                         <h1 class="projecttiletitle">Proceed with weed</h1>
@@ -851,15 +862,64 @@
         </div>
     </div>
 
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="parlameterinfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Agrument</div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Parlameter</h1>
+                    <p class="popuptext">Parlameter is our first project that is not politically engaged in terms of content, but, rather, it addresses the universal need for control over, transparency and accessibility of parliamentary data. We collect data from the official Slovenian Parliament website, arranging and organizing it in both computer- and user-friendly manners. Data is enriched with statistical and lingustic analyses, whereas information emanating from those analyses puts parliamentary actors in various interesting interrelationships. However, for understanding and meaningul interpretation of the results, Parlameter demands responsible use, which includes knowledge of wider contexts, political processes and vested interests. Only then the judgements can stand and will withstand the test of time.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="https://parlameter.si">Try <br> Parlameter</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-projekt popup-red centermycontentvertically" id="agrumentinfo">
+        <div class="popupclose">
+            <div class="icon-close"></div>
+        </div>
+
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Parlameter</div>
+            <div class="icon icon-arrow-left"></div>
+        </div>
+        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-right">Political portrait<!-- {{prev title}} --></div>
+            <div class="icon icon-arrow-right"></div>
+        </div>
+
+        <div class="container popupcontainer centermevertically">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="popuptitle">Agrument</h1>
+                    <p class="popuptext">Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of no more than 800 characters, we draw attention to the hidden sides of big stories, highlight small but significant incidents, monitor independent media and the backstage. Unsigned.</p>
+                    <div class="btn btn-popup push btn-projekt" data-href="https://agrument.danesjenovdan.si/">Try reading
+                        <br>some! (in Slovene)</div>
+                    <div class="btn btn-popup push btn-zapri">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="popup popup-projekt popup-red centermycontentvertically" id="politicniportretinfo">
         <div class="popupclose">
             <div class="icon-close"></div>
         </div>
 
-        <!-- <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">{{prev title}}</div>
+        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
+            <div class="titlenext titlenext-left">Agrument<!-- {{prev title}} --></div>
             <div class="icon icon-arrow-left"></div>
-        </div> -->
+        </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
             <div class="titlenext titlenext-right">Pre-election video by ESZDÉESZ</div>
             <div class="icon icon-arrow-right"></div>
@@ -1154,7 +1214,7 @@
             <div class="icon icon-arrow-left"></div>
         </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-right">Parlameter</div>
+            <div class="titlenext titlenext-right">Think different heroes</div>
             <div class="icon icon-arrow-right"></div>
         </div>
 
@@ -1170,39 +1230,13 @@
         </div>
     </div>
 
-    <div class="popup popup-projekt popup-red centermycontentvertically" id="parlameterinfo">
-        <div class="popupclose">
-            <div class="icon-close"></div>
-        </div>
-
-        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">Let's hold our horses!</div>
-            <div class="icon icon-arrow-left"></div>
-        </div>
-        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-right">Think different heroes</div>
-            <div class="icon icon-arrow-right"></div>
-        </div>
-
-        <div class="container popupcontainer centermevertically">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h1 class="popuptitle">Parlameter</h1>
-                    <p class="popuptext">Parlameter is our first project that is not politically engaged in terms of content, but, rather, it addresses the universal need for control over, transparency and accessibility of parliamentary data. We collect data from the official Slovenian Parliament website, arranging and organizing it in both computer- and user-friendly manners. Data is enriched with statistical and lingustic analyses, whereas information emanating from those analyses puts parliamentary actors in various interesting interrelationships. However, for understanding and meaningul interpretation of the results, Parlameter demands responsible use, which includes knowledge of wider contexts, political processes and vested interests. Only then the judgements can stand and will withstand the test of time.</p>
-                    <div class="btn btn-popup push btn-projekt" data-href="https://parlameter.si">Try <br> Parlameter</div>
-                    <div class="btn btn-popup push btn-zapri">Close</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="popup popup-projekt popup-red centermycontentvertically" id="aaroninfo">
         <div class="popupclose">
             <div class="icon-close"></div>
         </div>
 
         <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">Parlameter</div>
+            <div class="titlenext titlenext-left">Let's hold our horses!</div>
             <div class="icon icon-arrow-left"></div>
         </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
@@ -1571,7 +1605,7 @@
             <div class="icon icon-arrow-left"></div>
         </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-right">Agrument</div>
+            <div class="titlenext titlenext-right">Nov ŠOU</div>
             <div class="icon icon-arrow-right"></div>
         </div>
 
@@ -1588,40 +1622,13 @@
         </div>
     </div>
 
-    <div class="popup popup-projekt popup-red centermycontentvertically" id="agrumentinfo">
-        <div class="popupclose">
-            <div class="icon-close"></div>
-        </div>
-
-        <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">Et tu, B(o)rute?</div>
-            <div class="icon icon-arrow-left"></div>
-        </div>
-        <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-right">Nov ŠOU</div>
-            <div class="icon icon-arrow-right"></div>
-        </div>
-
-        <div class="container popupcontainer centermevertically">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h1 class="popuptitle">Agrument</h1>
-                    <p class="popuptext">Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of no more than 800 characters, we draw attention to the hidden sides of big stories, highlight small but significant incidents, monitor independent media and the backstage. Unsigned.</p>
-                    <div class="btn btn-popup push btn-projekt" data-href="https://agrument.danesjenovdan.si/">Try reading
-                        <br>some! (in Slovene)</div>
-                    <div class="btn btn-popup push btn-zapri">Close</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="popup popup-projekt popup-red centermycontentvertically" id="novsouinfo">
         <div class="popupclose">
             <div class="icon-close"></div>
         </div>
 
         <div class="previousproject arrow-obcasnik-left bck-red hidden-xs hidden-sm">
-            <div class="titlenext titlenext-left">Agrument</div>
+            <div class="titlenext titlenext-left">Et tu, B(o)rute?</div>
             <div class="icon icon-arrow-left"></div>
         </div>
         <div class="nextproject arrow-obcasnik-right bck-red hidden-xs hidden-sm">
@@ -1838,7 +1845,7 @@
     <script src="/js/nsa.js"></script>
 
     <!-- frontend magic -->
-    <script src="../js/front_eng.js?_new"></script>
+    <script src="../js/front_eng.js??180719"></script>
 
 
     <!-- Google Universal Analytics -->

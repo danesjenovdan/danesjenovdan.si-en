@@ -260,7 +260,7 @@ if (document.createElement('svg').getAttributeNS) {
 
 function repaintMe() {
     $('.tile').not('.tile-project, .tile-stream').height($('.tile-small').width());
-    $('.tile-project').equalizeHeights();
+    // $('.tile-project').equalizeHeights();
     $('.polaroidtext').equalizeHeights();
     $('.tile-obcasnik').equalizeHeights();
     $('.polaroid .image').height($('.polaroid .image').width());
