@@ -902,7 +902,7 @@ $(document).ready(function () {
         })
     }
 
-    $('.arrow-obcasnik-left, .arrow-obcasnik-right, #sendemail').not('.nextproject, .previousproject').on('click', function () {
+    $('.arrow-obcasnik-left, .arrow-obcasnik-right, #sendemail, #telefon').not('.nextproject, .previousproject').on('click', function () {
         window.location.href = $(this).data('href');
     });
 
