@@ -1,0 +1,777 @@
+{
+  "projects": [
+    {
+      "show": true,
+      "pinned": true,
+      "id": "parlameter",
+      "popup": "parlameterinfo",
+      "title": "Parlameter",
+      "text":
+        "Parlameter is a web tool that provides users with factual justifications for bitching about and/or glorifying the dedication of our MPs. It converts the (now scattered) publicly accessible data into organized information, which is presented in figures and graphs. Parlameter functions as an infrastructure for surpassing the empty, yet popular judgment, that in the Parliament \"everybody is the same\", replacing it with clearly identifiable similarities and differences between MPs, and equipping users with empirical indicators on which to build interpretations.",
+      "image": "/img/parlameter_slika.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Parlameter is run by more than</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px\">270 000</p><p class=\"projectnumbertext\">lines of code</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": true,
+      "id": "agrument",
+      "popup": "agrumentinfo",
+      "title": "Agrument",
+      "text":
+        "Daily responses, comments and concerns in approx. 1000 characters. Reading the small print with a magnifiying glass, highlighting footnotes with markers, decrypting brackets, functions and other socio-mathematics. A collaborative project of 15+ people.",
+      "image": "/projekti/img/agrument.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of words written</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">189961</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "sestavivlado",
+      "popup": "sestavivladoinfo",
+      "title": "Form the government",
+      "text":
+        "In an ideal Slovenia, the ministers would get their jobs by responding to the ads on this site. The ads were written by a broad civil society and non-governmental coalition. Enough looking for ministries for greedy politician, instead, let's search for professional, content-oriented and ethical candidates for the ministries instead!",
+      "image": "/projekti/img/sestavivlado.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">In the civil society coalition there are</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">22</p><p class=\"projectnumbertext\">member organizations</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "copywrong",
+      "popup": "copywronginfo",
+      "title": "Let's save the internet",
+      "text":
+        "A web campaign, designed to protect internet freedom and autonomy. European Parliament aims to reform copyright legislation, and whereas the reform itself is necessary, in parts, it is also very problematic, catering to interests of publishers and endangering the public right to fair use, quoting, education and research, even linking and memes. We felt it was necessary to inform Slovenian EU MPs about all this!",
+      "image": "/projekti/img/copywrong.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Petition signed by</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">almost 3000</p><p class=\"projectnumbertext\">people</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "politicniportret",
+      "popup": "politicniportretinfo",
+      "title": "Political portrait",
+      "text":
+        "This is a translation and an upgrade of the open source project politiscales. The test offers 117 questions that place an individual along 8 value axes. Most of the political parties that run for the 2018 parliamentary elections also sent us their responses, so the user can compare their views with the parties' answers.",
+      "image": "/projekti/img/politicni-portret.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">The site has been visited</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">more than 30 000</p><p class=\"projectnumbertext\">times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "madzarska",
+      "popup": "madzarskainfo",
+      "title": "Pre-election video by ESZDÉESZ",
+      "text":
+        "This is a parodic rework of one of the official SDS pre-election videos. In response to media disclosures about illegal financing of the SDS campaign by Orbán-related companies, we decided to draw attention to the ill-suited circumvention of our electoral legislation. We did that by translating the party's message into the Hungarian language.",
+      "image": "/projekti/img/eszdeesz.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Censorship attempts</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">2</p><p class=\"projectnumbertext\">so far</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "uporabljajfacebook",
+      "popup": "uporabljajfacebookinfo",
+      "title": "SIGN UP FOR FACEBOOK",
+      "text":
+        "We translated the open source website Sign up for Facebook and published its contents on our own domain. The site informs users about how Facebook violates their right to privacy. It focuses on reviewing and explaining which of our data ti accesses, stores, and how that helps advertisers.",
+      "image": "/projekti/img/uporabljaj-facebook.jpg",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">From idea to realisation</p><p class=\"projectnumbernumber\" style=\"font-size: 28px\">5 hours</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "kura",
+      "popup": "kurainfo",
+      "title": "kura.si",
+      "text":
+        "We responded to the invitation of the Ljubljana Society for the protection of animals to join the campaign against raising laying hens in battery cages. We created an online game kura.si and set up a petition, signed by thousands of people demanding the providers to stop selling eggs obtained in this manner.",
+      "image": "/projekti/img/vesela-kura-djnd.gif",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Signed by</p><p class=\"projectnumbernumber js-kura-counter\" style=\"font-size: 28px; line-height: 60px\">13411</p><p class=\"projectnumbertext\">people</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "humansvote",
+      "popup": "humansvoteinfo",
+      "title": "humans.vote",
+      "text":
+        "We participated in blockchain hackaton Future Hack with the project humans.vote. In a 48-hour programming marathon we developed a very sophisticated blockchain solution for digital elections and any other voting-based decision making.",
+      "image": "/projekti/img/humans-vote.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Produced</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px\">6000+</p><p class=\"projectnumbertext\">lines of code in 2 days</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "ahmad",
+      "popup": "ahmadinfo",
+      "title": "Ahmad must stay",
+      "text":
+        "We published Ambasada Rog's petition to the Ministry of the Interior, requesting to stop the deportation of Syrian refugee Ahmad Shamieh. Public pressure was enough for a two-day interruption of the proceedings, but on November 16 the government decided that Shamieh should nevertheless leave.",
+      "image": "/projekti/img/ahmad.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Signed by</p><p class=\"projectnumbernumber js-ahmad-counter\" style=\"font-size: 28px; line-height: 60px\">4256</p><p class=\"projectnumbertext\">people</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "razglednica",
+      "popup": "razglednicainfo",
+      "title": "Postcard from Vis",
+      "text":
+        "Test use of the SCAN method, digitized and refocused, together with EBSI, for the needs of the forthcoming Media scanner project. Intervention in the yellow media landscape and proof that there are still differences between statements of the hearsay type.",
+      "image": "/projekti/img/razglednica-z-visa.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Shared on FB</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px\">702</p><p class=\"projectnumbertext\">times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "breakfree",
+      "popup": "grafitinfo",
+      "title": "Tagged yet?",
+      "text":
+        "In July 2017, on the Congress Square in Ljubljana, a monument to the victims of all wars was erected in an inappropriate and inadmissible intertwine of church and state ceremonies. On two concrete blocks, equal in volume and different in appearance, there is neither clear message nor climbing holds. Graffiti was to be expected ...",
+      "image": "/projekti/img/spomenik.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">We waited for graffiti for</p><p class=\"projectnumbernumber grafitnumber\" style=\"font-size: 28px; line-height: 60px\">226</p><p class=\"projectnumbertext\">days</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "breakfree",
+      "popup": "breakfreeinfo",
+      "title": "Break Free",
+      "text":
+        "A petition to the Slovenian Government in which, together with a broad coalition of non-governmental partners, we urge those in power to promote and adopt sustainable and green energetic policies. Public money should not be spent on energy dinosaurs but rather for responsible transition from fossil fuels to sustainable sources, for the employees in this sector as well as for encouraging energetic self-sufficiency and establishing infranstructure for the electrification of transport from renewable sources.",
+      "image": "/projekti/img/breakfree.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext js-breakfree-counter-text\">More than</p><p class=\"projectnumbernumber js-breakfree-counter\" style=\"font-size: 28px; line-height: 60px\">5250</p><p class=\"projectnumbertext\">signatures</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "varuhinja",
+      "popup": "varuhinjainfo",
+      "title": "Not giving up",
+      "text":
+        "Petition for the Ombudsman, in which we invite her to file the Aliens Act in the constitutional review. We believe that the office of the ombudsman should be committed to respecting human rights and that they should do so past pragmatic, economic or ideological interests. It is not permissible that the Aliens Act, whose unconstitutionality and non-compliance with international legal frameworks have been voiced by a number of domestic non-governmental organizations as well as foreign institutions, has been waiting for the Ombudsman's review so long after its adoption by the National Assembly.",
+      "image": "/projekti/img/varuhinja.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">More than</p><p class=\"projectnumbernumber js-varuhinja-counter\" style=\"font-size: 28px; line-height: 60px\">1310</p><p class=\"projectnumbertext\">signatures</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "ustavimokonje",
+      "popup": "ustavimokonjeinfo",
+      "title": "Let's hold our horses!",
+      "text":
+        "A digital appeal to the Slovenian President Borut Pahor, asking him not to behave as a bureaucrat, but, rather, as a president, who is not afraid of experimenting with his function in order to defend basic human rights. We do not need the president to show us how to do our daily jobs, how to wave the national flag at sporting events or beg for likes on social media. Instead, he should demonstrate to the public how to act ethically despite the apparent obstacles imposed on him by the seemingly unchangeable system.",
+      "image": "/projekti/img/ustavimokonje.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Sent</p><p class=\"projectnumbernumber js-ustavimokonje-counter\" style=\"font-size: 28px; line-height: 60px\">826</p><p class=\"projectnumbertext\">times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "aaron",
+      "popup": "aaroninfo",
+      "title": "Think different heroes",
+      "text":
+        "November 8 2016 wasn't a dark day just because Americans decided to trump the idea of democracy by electing Trump, but also because that would be the day when Aaron Swartz, if still alive, would turn 30. We took the opportunity of moving to a new office to honour his memory and promote his open data cause.",
+      "image": "/projekti/img/aaron.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">viewed on social networks</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; white-space: nowrap;\">over 43k</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "studentskiuspehi",
+      "popup": "studentskiuspehiinfo",
+      "title": "Greatest (s)hits of student organising",
+      "text":
+        "An overview of the finest malversations, transgressions and other \"successes\" of Slovenian student organising in the last 20 years. On the one hand, they are signing curious contracts, paying huge retainers and engaging dubious investments, while on the other hand, they avoid public control and state revision. ŠOU is over.",
+      "image": "/projekti/img/studentskiuspehi.jpg",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of emails sent</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; white-space: nowrap;\">over 3000</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "prostovid",
+      "popup": "prostovidinfo",
+      "title": "Visions of public space",
+      "text":
+        "Critical visual comments to the state of public spaces, made by students and presented in the form of conflicting visions of the future, available to view online. The message is clear: we are all responsible for the future of our public spaces!",
+      "image": "/projekti/img/prostovid.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">number of spaces presented</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">9</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "alternacija",
+      "popup": "alternacijainfo",
+      "title": "Alternation",
+      "text":
+        "We took tweets from political parties and individual politicians and replaced words denoting refugees, migrants etc., with the word Jew. With the visual design of the campaign we hinted at some widely recognisable, yet very problematic symbols, to make absolutely clear that some are indeed only one word away from full-on fascist propaganda.",
+      "image": "/projekti/img/alternacija.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">shared on Facebook</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">1620 times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "zar",
+      "popup": "zarinfo",
+      "title": "Kosher roast",
+      "text":
+        "Yet another manifestation of the emperor's lack of clothing, or, Why Pahor is a lousy president. Rather than \"enjoying\" the pacifying TV roast, we lit the fire by engaging in substantial critique of his work. The internet then did the rest. Roast status: finished!",
+      "image": "/projekti/img/zar.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">shared on social media</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">1805 times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "jansa",
+      "popup": "jansainfo",
+      "title": "Vote PRO: Janez Janša",
+      "text":
+        "The last mockery before the end of the gay marriage referendum campaign or fake news from Noriško kraljestvo: the prince wants you to vote PRO! A provocative political satire or an insight in a parallel reality, where Gargamel had a close encounter with unicorn vomit.",
+      "image": "/projekti/img/casjeza.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">reach</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">92,556</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "neenak",
+      "popup": "neenakinfo",
+      "title": "Inequality",
+      "text":
+        "Inequality for beginners aka why the problem of \"developed\" societies is not shortage, but huge differences amongst people. The project is an interactive experience that will make you knowledgeable, but also a bit sick to your stomach.",
+      "image": "/projekti/img/neenakost.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">visitors</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">2162 in 48h</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "map",
+      "popup": "mapinfo",
+      "title": "OMNIA map",
+      "text":
+        "An interactive map of \"Omnia\" polling stations for those, who were away from home on the day of the gay marriage equality referendum, showing them where to vote.",
+      "image": "/projekti/img/omnia_zemljevid.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">reach on Facebook</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">18,237</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "bestof",
+      "popup": "bestofinfo",
+      "title": "Best of: TV debate on gay marriage referendum",
+      "text":
+        "With stars like this, everybody can be a great director: cut/paste trolling helped us endure the sleepless night, which inevitably followed the evening debate on national TV, where the opponents of gay marriage equality made Jerry Springer jealous.",
+      "image": "/projekti/img/soocenje.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">views</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">312,463</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "za",
+      "popup": "zainfo",
+      "title": "I want to vote PRO, but ...",
+      "text":
+        "Although we've had it with idiotic arguments from the opponents of (gay) marriage equality, we still refuse to give up: one should absolutely vote pro! Here's a guide through alternative options of voting.",
+      "image": "/projekti/img/vodic_za.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">procedures explained</p><p class=\"projectnumbernumber\">10</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "vandal",
+      "popup": "vandalinfo",
+      "title": "Is it vandalism?",
+      "text":
+        "Which is vandalism: crossing the old town by bike or damaged/missing cycling paths? Let us ask the people!",
+      "image": "/projekti/img/vandalizem.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">definitions of vandalism</p><p class=\"projectnumbernumber\">56</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "ninja",
+      "popup": "ninjainfo",
+      "title": "Blind net",
+      "text":
+        "A campaign for better accessibility of websites for the blind. There are simply no excuses for sloppy code, intrusive ads and ignorance. The project was carried out by students of University of Ljubljana, mentored by DJND staff.",
+      "image": "/projekti/img/slepsvet.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">shared on Facebook</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">160 times</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "slaughter",
+      "popup": "slaughterinfo",
+      "title": "(s)laughter",
+      "text":
+        "Video, conceived and filmed for Radical Democracy Video Challenge, in which victims of violent discourses speak words of their oppressors. Tragicomic viral hit.",
+      "image": "/projekti/img/slaughter.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of plays</p><p class=\"projectnumbernumber\">13k</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "heartbleed",
+      "popup": "heartbleedinfo",
+      "title": "Heartbleed",
+      "text":
+        "A call to immediately address a global threat to the internet. Holding the ones responsible to account and measuring response time.",
+      "image": "/projekti/img/heartbleed.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">from idea to realisation</p><p class=\"projectnumbernumber\">11h</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "borut",
+      "popup": "borutinfo",
+      "title": "Et tu, B(o)rute?",
+      "text":
+        "A tool to clog the holes in political memory. A web-based reminder for a variety of engaged uses, written on the day of inauguration of the new Anti Corruption Commision and its president. Golden Diggit laureate 2014.",
+      "image": "/projekti/img/borute.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of print media mentions</p><p class=\"projectnumbernumber\">8</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "novsou",
+      "popup": "novsouinfo",
+      "title": "NOV ŠOU",
+      "text":
+        "A web-vased campaign for statutory changes of the Student's Organisation of University of Ljubljana in the direction of its definition as an institution under public law and greater transparency of its operations.",
+      "image": "/projekti/img/novsou.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">turnout increased by</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">1200%</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "homojbog",
+      "popup": "homojboginfo",
+      "title": "Homojbog",
+      "text":
+        "A video intervention facing the counterproductive patronising attitude towards the LGBT community. Rough street self-declarations of recognisable people. Breaking the wall between \"us\" and \"them\".",
+      "image": "/projekti/img/homojbog.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of plays</p><p class=\"projectnumbernumber\" style=\"font-size: 44px;\">26k</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "danzastudentskoorganiziranje",
+      "popup": "danzastudentskoorganiziranjeinfo",
+      "title": "a day for student organising",
+      "text":
+        "A workshop on traps and opportunities of student organising, rethinking the legal status of ŠOS and ŠOU, financing, politicising and the gap between common and particular interests.",
+      "image": "/projekti/img/dan_za_stud_org.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">president of ŠOU stayed for</p><p class=\"projectnumbernumber\" style=\"font-size: 37px;\">133min</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "k4",
+      "popup": "k4info",
+      "title": "K4ever",
+      "text":
+        "Petition to save the club K4 as a space for progressive and independent cultural and musical production.",
+      "image": "/projekti/img/k4zazmeri.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of signatures</p><p class=\"projectnumbernumber\" style=\"font-size: 37px;\">2465</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "danzavodo",
+      "popup": "danzavodoinfo",
+      "title": "A day for water",
+      "text":
+        "Workshop on attempts at privatising water resources in search of more democratic ways of managing the commons, born from a suggestion on the original platform.",
+      "image": "/projekti/img/dan_za_vodo.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 10px; width: 218px;\"><p class=\"projectnumbertext\">no. of slovenian petition signatures</p><p class=\"projectnumbernumber\">21k</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "predlogi",
+      "popup": "predlogiinfo",
+      "title": "Suggestions",
+      "text":
+        "The platform where it all began. A tool for online participation and digital democracy, community decision-making, debating and organising work processes. Currently resting in the drawer.",
+      "image": "/projekti/img/predlogi.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of votes</p><p class=\"projectnumbernumber\">12k</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "harlemshake",
+      "popup": "harlemshakeinfo",
+      "title": "Harlem shake",
+      "text":
+        "A localised version of the world's viral obsession with a hint of local political satire, innovative use of university facilities and plenty of pleasure. Today is a crazy day.",
+      "image": "/projekti/img/harlemshake.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">no. of plays</p><p class=\"projectnumbernumber\" style=\"font-size: 37px;\">7434</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "zakonopljo",
+      "popup": "zakonopljoinfo",
+      "title": "Proceed with weed",
+      "text":
+        "A beginners' try at gathering signatures for a parliamentary hearing on marijuana legalisation. A convincing campaign with avantgarde moves in web communications (for 2012, at least).",
+      "image": "/projekti/img/za_konopljo.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">visitors in 10 days</p><p class=\"projectnumbernumber\">33k</p></div>"
+    }
+  ],
+  "popups": [
+    {
+      "id": "parlameterinfo",
+      "title": "Parlameter",
+      "text":
+        "Parlameter brings transparent insight and easy accessibility and transparency of information about parliamentary work. We collect and analyze voting data, transcripts of sessions, as well as other activities of MPs and parliamentary groups.<br>We arrange the data so that it is presented in machine and people friendly ways: for the former, there are open API calls, and for the latter innovative data organization in the form of card-based design. Each piece of Parlameter content resides in the form of a stand-alone card, which the user can share with others or embed in their own website.<br>The development of Parlameter was supported by Google DNI, whereas its autonomy is currently maintained by a NED grant.<br>The value of the project has been recognized by professionals (Brumen Grand Prix, Grand Diggit Award) and journalists (it is embedded in Slovenian press agency website), as well as by foreign non-governmental organizations: soon Parlameter is also coming to Croatia, Bosnia and Herzegovina, and the UK.",
+      "href": "https://parlameter.si",
+      "buttonText": "Try Parlameter"
+    },
+    {
+      "id": "agrumentinfo",
+      "title": "Agrument",
+      "text":
+        "Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of approximately 1000 characters, we draw attention to hidden sides of big stories, highlight small but significant incidents, monitor independent media, and the politicial backstage. Agrument is unsigned and is a product of collaborative work.<br>Every now and then on 25 consecutive Saturdays we publish thematic agruments and sometimes, very rarely, we even produce video ones.",
+      "href": "https://agrument.danesjenovdan.si/",
+      "buttonText": "Try reading some! (in Slovene)"
+    },
+    {
+      "id": "sestavivladoinfo",
+      "title": "Form the government",
+      "text":
+        "The end of July 2018 marked a fruitful cooperation of civil society and non-governmental organizations, which produced a campaign and a satirical website challenging the established ways of political collaboration. The parties should cooperate on the basis of concrete policies and content, but, rather, they get caught up in trading with power and satisfyinig individuals' appetites. But neglecting competences is just one side of the story; equally if not more problematic is the Slovenian trend of adopting legislation through abbreviated procedures, which excludes civil society and NGOs and prevents any kind of public debate. All of this helps to create the impression that civil society is redundant. But the truth could not be more different ...",
+      "href": "https://sestavivlado.si/",
+      "buttonText": "Check out the webpage"
+    },
+    {
+      "id": "copywronginfo",
+      "title": "Let's save the internet",
+      "text":
+        "In June 2018, we campaigned against four articles of the proposed European copyright law: we demanded abolition of two and a rewrite of another two. The proposed Article 11 jeopardized the right to link: lobbyists of large publishers wanted to restrict the free flow of information and charge websites for displaying links to their content. Article 13 was problematic because it proposed the introduction of automatic content filters, which would allow for censorship even in the fair use of copyrighted works (eg. memes, parodies, quotations etc.). Articles 3 and 4, dealing with permitted exceptions for data mining and education, required further elaborations and clearer definitions.<br>With the campaign, together with similar activist actions throughout Europe, we achieved a temporary success: the reform was not adopted, and the European Parliament will discuss it again in autumn.",
+      "href": "https://danesjenovdan.si/resimointernet/",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "politicniportretinfo",
+      "title": "Political portrait",
+      "text":
+        "End of May 2018 marked the last spring before Slovenian parliamentary elections, so we decided to help voters to choose who to vote for. Because TV confrontations as well as party programs focus mainly on generalized and empty claims, we delivered the 117 questions long questionnaire to all the competing parties. The majority of them responded with answers, so we were able to create a web application which allows the individual user to compare their results with the results of the parties and thus effectively position themselves in the political space. We wanted to give voters the opportunity to make their decisions based on content - and a great response to the project proves that they appreciated it.",
+      "href": "https://danesjenovdan.si/politicni-portret/",
+      "buttonText": "Take the test"
+    },
+    {
+      "id": "madzarskainfo",
+      "title": "Pre-election video by ESZDÉESZ",
+      "text":
+        "SDS is the only political party in Slovenia that owns companies. Among these, there are media outlets in which Hungarian companies, linked to Prime Minister Orbán, have already invested over 2 million euros. By doing so, they indirectly funded the SDS election campaign.\n                        Slovenian legislation forbids political parties to receive funding from abroad. That is a mechanism that protects the sovereignty of the state and the elections.\n                        In order to draw attention to the unacceptable orbanization of Slovenia, we synchronized the SDS promotional video to Hungarian.",
+      "href": "https://vimeo.com/272352527",
+      "buttonText": "Check out the video"
+    },
+    {
+      "id": "uporabljajfacebookinfo",
+      "title": "Sign up for Facebook in Slovene",
+      "text":
+        "There is more and more talk about the problematic nature of online giants like Facebook, and their handling of our data. In March 2018, after some high-profile scandals such as the one with Cambridge Analytica, we decided to translate the open source website Sign up for Facebook in Slovene. The website is designed to help the user decide whether to open an account on Facebook. The user is be guided through information about their Facebook data that is collected, stored and what is done with them, as well as how all this data helps advertisers and other stakeholders. It is important to take responsibility for our decisions and be aware of their possible consequences!",
+      "href": "https://uporabljajfacebook.si",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "kurainfo",
+      "title": "KURA.SI",
+      "text":
+        "The most important result of the campaign against using battery cages in laying hens housing, which we joined in March 2018, is the petition, sent to all major providers, who sell eggs from laying hens housed in this manner. The public response to the petition, for which we provided all the necessary digital infrastructure, was huge. We also spent several creative hours devising and developing the retro web game kura.si, which supports the campaign. In it, the player is placed in the role of a laying hen and faced with the reality of such life. They are sentenced to suffering in a small cage in which they cannot move freely or do anything except lay eggs. Of course, the potential abolition of battery cages is just a small step in the efforts for the welfare of animals, but only small steps can gradually bring us to the utopian future where mutual respect and coexistence of different cultures and species becomes the new normal.",
+      "href": "https://kura.si",
+      "buttonText": "Try yourself in the role of a battery-caged laying hen"
+    },
+    {
+      "id": "humansvoteinfo",
+      "title": "humans.vote",
+      "text":
+        "In January 2018, a group of our developers participated in the Future Hack hackaton, during which they developed an application that enables secure voting through blockchain technology within 48 hours. We intended to build a tool that would allow everyone, regardless of their knowledge about blockchain, to easily install and use the voting application. Organizations and individuals have varying needs in the implementation of different decision-making mechanisms, so we designed the application in such a manner that it is able to function with any voting system. Unfortunately, due to the time limit, the user interface remained uncompleted, but within the given 48 hours we succeeded in largely realizing the project idea. We also wrote the documentation, detailed instructions for installation and user manual and publicly published the (open) code at GitHub.",
+      "href": "http://humans.vote",
+      "buttonText": "Check out the project"
+    },
+    {
+      "id": "ahmadinfo",
+      "title": "Ahmad must stay",
+      "text":
+        "In November 2017, Slovenia was divided by a story of tragic personal fate, which demonstrated the validity of the personal is political motto. The Slovene bureaucratic apparatus showed that it chooses to respect the Dublin Regulation, when it needs to justify returning asylum seekers to Croatia, but not so much when it would be possible (and humane) to use its discretionary clause to handle individual cases.\n                    Refugee Shamieh came to the country through a humanitarian corridor. He never applied for asylum in Croatia. During his 1.5-year stay in Slovenia, he learned the language and integrated into society. He was especially active as one of the initiators of the Rog Embassy, he acted as a volunteer, working with refugees and addressing social issues, and he also had a crucial role in two projects of the Ministry of culture. Rather than using his story as an example of a desirable integration practice, and rewarding him for his contribution to our society at least with a residence permit, the Ministry of the Interior simply decided to dismiss his application for asylum.",
+      "href": "https://danesjenovdan.si/ahmad/",
+      "buttonText": "View the petition"
+    },
+    {
+      "id": "miksersoocenjinfo",
+      "title": "Debate mixer",
+      "text":
+        "In cooperation with POP TV, we prepared a web application which hijacks pre-election debates from the frames of one-way television logic and delivers them to the online public to reflect and act upon.\n                    The application allows for easy processing and sharing of interesting, important or comic video excerpts from debates. The application was published just in time for the internet public to watch and remix the last big television confrontation before the October presidential elections as it happened.\n                    On the project website, we published a number of clips created by our users. They mostly mock the blank statements, spoken by presidential candidates on live TV, whereas some of them are also pronounciations of serious concerns about the candidates' substance - or lack thereof. The video of the first confrontation that was broadcast on POP TV is also subtitled. To make your browsing life easier, we also added a search enginge. You can still try out the app and create your own work of art!",
+      "href": "http://soocenje.24ur.com/",
+      "buttonText": "Check out the project"
+    },
+    {
+      "id": "razglednicainfo",
+      "title": "Postcard from Vis",
+      "text":
+        "In terms of parliamentary news, August is the proverbially boring August month. But in 2017, there was an event, taking place on the ferry to Croatian island Vis, where deputy colleagues Violeta Tomić (Levica) and Branko Grims (SDS) met. The encounter was followed by the publication of photographs of Tomić in what the publishers deemed inappropriate clothing, pose, and company. This was followed by a social media response by Tomić, which hinted at Grims' potential involvement. He fiercely rejected the allegations. The Vis summer romance seemed to us an appropriate occasion to exercise and test the SCAN investigative method, which is being explored and developed for the needs of the Media Scanner project.",
+      "href": "https://danesjenovdan.si/razglednica-z-visa/",
+      "buttonText": "See the results of the SCAN method"
+    },
+    {
+      "id": "grafitinfo",
+      "title":
+        "Has the Monument to Victims of All Wars already been tagged with graffiti?",
+      "text":
+        "There is no point in defining the artistic value of the monument because at least in the cases of food and art it is considered that there is no disputing about tastes. This does not mean, however, that it is not necessary to draw attention to its symbolic repentance of all who joined the right side during World War II. Modern history is full of attempts to relativize the definitions of good and bad, friend and enemy, hero and traitor, partisans and Slovene home guard. The fact that the war was followed by wrongful acts of the winning side does not mean that there was no collaboration with the Nazi regime or that such collaboration is morally equivalent to cooperation with the Allies. Post-war crimes should be investigated and punished and all family members should be given the opportunity to bury their dead, but a monument that equates members of the home guard with partisans can only be tagged with graffiti.",
+      "href": "https://ali.je/spomenikvsemzrtvamvojnzepografitiran/",
+      "buttonText": "Has it been done?"
+    },
+    {
+      "id": "breakfreeinfo",
+      "title": "Break Free",
+      "text":
+        "We participated in the Greenpeace Break Free coalition that lasted from March 13 to 31, organizing a series of events and initiatives whose common goal was to call for an end to fossil fuels. The dirty energy harms our planet, and as if that was not enough, it is also extremely costly. Slovenia, as a signatory to the Paris Agreement, committed to a complete decarbonisation of the energy and industrial sectors by 2050, which means that instead of investing in coal-fired power plants we should accept their inevitable end - and do everything in our power to reach it as soon as possible. This can only be done with timely, responsible and sustainable policies, which is exactly what we expect from the Government who instead chooses to pretend as if there is time to spare. The web petition that we designed for Break Free was conceived as a dynamic and user-friendly experience, enhanced also by using our \"bot\" Šepetalka to inform users in more depth. The project was developed in collaboration with the coallition Break Free (led by Greenpeace Slovenia) and collective Ljudje.",
+      "href": "https://danesjenovdan.si/breakfree/",
+      "buttonText": "Check out the web campaign"
+    },
+    {
+      "id": "varuhinjainfo",
+      "title": "Not giving up",
+      "text":
+        "In cooperation with Ljudje, Stripgenerator and Project Seen we gave birth to Šepetalka, which helps users uncover ambiguity in relation to the Aliens Act and points them to its unconstitutionality and infringements of international conventions on human rights. The user-friendly web experience provides organised and well-structured information, to which a petition to the Ombudsman is appended. In the petition, we urge the Ombudsman to cease her passive stance and immediately file the Aliens Act in the constitutional review. For those familiar with the content of the contested law, we created a simple website where one can easily sign the petition. The petition with over 1400 signatures was already handed over to the Ombudsman, whose PR department responded with an arrogant lesson on the autonomy of the ombudsman institution. Apparently, we live in a country where it is considered obscene to call public officials accountable for (in)efficient and (un)timely doing of their jobs.",
+      "href": "https://danesjenovdan.si/varuhinja/",
+      "buttonText": "Check out the petition"
+    },
+    {
+      "id": "ustavimokonjeinfo",
+      "title": "Let's hold our horses!",
+      "text":
+        "The outrage upon the adoption of the unconstitutional Aliens Act resulted in an appeal to the President of the Republic of Slovenia Borut Pahor. The public demanded of him to act ethically, so we invited him to defend human rights even when that might pose a threat to his own privilege. The office of President indeed presupposes promulgating laws regardless of whether the person holding the position agrees with them or not, but it is also possible to think the presidency beyond political pragmatism and established habits. If the president refused to promulgate the Aliens Act, he would indeed risk dismissal in the Parliament, but would gain much in terms of human integrity and symbolic authority. The President's Office rejected such an act of rebellion as impossible, but this judgment applies only within the assumption that Pahor should remain in function no matter what, continuing his non-conceptual behaviour to provide support for the next nomination. We believe it would be much more presidential of him to risk his job for defending human rights, instead of spending his time collecting likes on social networks.",
+      "href": "https://danesjenovdan.si/ustavimokonje/",
+      "buttonText": "Check out the web campaign"
+    },
+    {
+      "id": "aaroninfo",
+      "title": "Think different heroes",
+      "text":
+        "Aaron Swartz was a computer programmer, a hacktivist, and open data advocate. He helped redefine the idea of copyright and he also believed in free availability of scientific texts. The latter is what led him in trouble with the law.After copying almost the entire JSTOR from MIT servers, the FBI decided to make an example out of him. Not only did they want to give Swartz a lesson, they also wanted to prevent any similar efforts from others. JSTOR did not want to prosecute Swartz, whereas MIT, who publicly presents itself as an advocate of open access to knowledge and information, stayed silent. Swartz did not accept the prosecution offer, under which he would be imprisoned for 6 months and given a criminal record in exchange for recognition of the alleged violations of federal law. Suddenly he was facing up to 50 years in prison and a million-dollar penalties. However, Swartz never became a criminal. On 11 January 2013, he committed suicide.",
+      "href": "https://www.youtube.com/watch?v=_2FWJyZ4pao",
+      "buttonText": "Check out the video"
+    },
+    {
+      "id": "studentskiuspehiinfo",
+      "title": "Greatest (s)hits of student organising",
+      "text":
+        "A day before the meeting of the parliamentary Committee on Education, Science, Sport and Youth, we helped promote amendments to the Law on the student community, prepared by deputy group ZL (United Left). The proposed changes address the most problematic vaguenesses and ambiguities that have so far allowed student functionaries to act mostly in their own personal interest, defining (and thereby subjecting it to stricter legislation) the student organisation as a public entity. The management of the Slovenian Student Union (ŠOU) strongly rejects the proposed amendments, and the responsible ministry also appears more interested into particular rather than student interests. With our campaign, we helped to prevent the rejection of the Amending Act by the aforementioned Committee. There is to be public debate in the autumn of 2016. The show is over!",
+      "href": "https://danesjenovdan.si/studentski-uspehi/",
+      "buttonText": "Check out the web campaign"
+    },
+    {
+      "id": "prostovidinfo",
+      "title": "Visions of public space",
+      "text":
+        "In April 2016, we teamed up with students and professors from University of Lljubljana's Biotechnical Faculty and Faculty of Architecture, to help them present and promote the results of a workshop on possible futures of the Slovenian public spaces. Students took materials from Google Street View and transformed them in both utopian and dystopian visions of the future, and we edited and presented the campaign online. The audience is presented with a very simple decision: do I want the current trends to continue and completely take over the landscape or will I do something to help secure a friendlier, inclusive and nature-friendly ways of managing the commons.",
+      "href": "https://danesjenovdan.si/prostovid/",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "alternacijainfo",
+      "title": "Alternation",
+      "text":
+        "In March 2016, it was necessary to bring attention to the problematic discourse about refugees. We engaged in a web campaign, in which we altered the tweets of politicians and political parties in such a manner, that we replaced words such as refugee and migrant with the word Jew. Only when words, aimed at refugees, are redirected to a group of people, to which the West is almost pathologically sensitive, it becomes clear that our society has begun to flirt with fascism. The political propaganda against refugees in not unlike the nazi propaganda, creating a society of fear, in which instead of financial and social we debate the migrant \"crisis\", tying not only our belts, but also our military boots. Sieg!",
+      "href": "https://danesjenovdan.si/alternacija/",
+      "buttonText": "Check out the web campaign!"
+    },
+    {
+      "id": "zarinfo",
+      "title": "Kosher roast",
+      "text":
+        "On February 14, 2016, we did not just celebrate the commodification of love, but also of our president himself. We sat in awe and watched the TV Roast featuring Borut Pahor, complaining not only about bad TV, but also about the quality of the president's work. Because of the important guest, the show's format felt watered down and effectively turned in to a start of a new political campaign. We at DJND decided to turn the attention away from the adorable TV mischief and on to Pahor's political mistakes. In Slovenia, presidency in mainly a symbolic function, and one that supposedly carries with it moral excellency. As the figure of the president is very important to the people, it also requires serious critique. So, we took him from the benign TV roast and put him in an internet oven that left him significantly more scorched.",
+      "href": "https://danesjenovdan.si/zarbrezutvar/",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "jansainfo",
+      "title": "Vote PRO: Janez Janša",
+      "text":
+        "From the official SDS website we took the opposition leader Janša's appeal to vote against gay marriage equality. Then we identified and cataloged all the different words that he used in his speech, mixed them around, added some style, a comma or two, and a rainbow flag, and transformed a paranoid conspiracy theory to an appeal to respecting differences, advocating for equality and inclusion. Because why not.",
+      "href":
+        "https://www.facebook.com/danesjenovdan/videos/vb.415115695237226/938006822948108/?type=2&theater",
+      "buttonText": "Check out the video"
+    },
+    {
+      "id": "neenakinfo",
+      "title": "Inequality",
+      "text":
+        "The project explains three different aspects of inequality: wealth inequality, income inequality, and an analysis of inequality in Slovenia. Key terms and data are presented in an interactive and understandable manner, which encourages the visitor to click through pressing economical headaches and their implications. The web experience ends with listing of some possible solutions.\n                The project was supported by Inštitut za delavske študije and Open Society Foundation. It was publicly presented at an event, organised to promote the translation of Piketty's Capital in Slovene language.",
+      "href": "http://neenakost.je/",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "mapinfo",
+      "title": "OMNIA map",
+      "text":
+        "Yet another tutorial that encouraged participation in the voting that should not have happened - the infamous Slovene referendum on gay marriage equality. Because State Election Commission has a useless website (along with the rest of Public Administration), because the national TV did a terrible job informing citizens on possible referendum outcomes (they equated voting PRO with NOT SHOWING UP), and, finally, because someone might find it useful.",
+      "href": "https://danesjenovdan.si/za/zemljevid/",
+      "buttonText": "Check out the map of Omnia polling stations"
+    },
+    {
+      "id": "bestofinfo",
+      "title": "Best of: TV debate on gay marriage referendum",
+      "text":
+        "The hardest part of this project is to understand how the proposed legislative change in the definition of marriage (from \"relationship of husband and wife\" to relationship \"of two persons\") failed on the referendum DESPITE the public debate, orchestrated by national TV. Our montage of its best (worst, actually) moments reached a quarter of Slovene population, it had thousands of likes, shares and comments, it gave the internet new memes and fiery debates, and sometimes even problematic rhetoric aimed towards the opponents of equality. How is it possible then, that gays still cannot get married, if the whole country laughed at their opponents' skills of argumentation?",
+      "href":
+        "https://www.facebook.com/danesjenovdan/videos/vb.415115695237226/934372303311560/?type=2&theater",
+      "buttonText": "Check out the video"
+    },
+    {
+      "id": "zainfo",
+      "title": "I want to vote PRO, but ...",
+      "text":
+        "The project represents the first practical test of the tool Cefizelj. Cefizelj is a web app with custom CMS, in which it is possible to organise (WYSIWYG editable) content in a tree-structure layout by clicking. We built Cefizelj to explain time-consuming formal procedures and we intend to use it again in the future. In this project, Cefizelj was used to explain alternative ways of voting: how to vote from abroad, if you're handicapped, living in an institution, etc. Although our institute rejects pro et contra debate on human rights, that does not stop us from exclaiming: PRO!",
+      "href": "https://danesjenovdan.si/za/",
+      "buttonText": "Check out the tutorial"
+    },
+    {
+      "id": "vandalinfo",
+      "title": "Is it vandalism?",
+      "text":
+        "The project Is it vandalism? is a reaction to official City of Ljubljana campaign against vandalism. The latter defines vandalism as interventions in the environment and/or its uses that reduce the commercial value of that environment. Local authorities thus advocate such definition of vandalism that is in direct financial interest of capital. We believe it is the people who should be allowed to define vandalism in their own local environments, so we asked them to publish Instagram photos that relativize vandalism. Everywhere, citizens should be the ones to decide, which changes in their city are appropriate and which are in fact problematic.",
+      "href": "https://danesjenovdan.si/vandalizem/",
+      "buttonText": "Check out the campaign website"
+    },
+    {
+      "id": "ninjainfo",
+      "title": "Blind net",
+      "text":
+        "On White Cane Safety Day, October 15, 2015, we urged digital media to make their websites more accessible to the blind. We performed some accessibility tests and the majority of the most visited Slovenian digital media fared awkwardly bad. This is unforgivable as implementation of web accessibility standards is neither very complicated nor particularly expensive. However, there is \"only\" about 10 000 blind persons in Slovenia, which is apparently not enough to form a market niche. Therefore, they are excommunicated from an environment which could just as easily expand their possibilities of interacting with the world.",
+      "href": "https://danesjenovdan.si/slepsplet/",
+      "buttonText": "Check out the campaign website"
+    },
+    {
+      "id": "slaughterinfo",
+      "title": "(S)laughter",
+      "text":
+        "In April 2014 we applied to the Radical Democracy Video Challenge call with a short video called (S)laughter. We took declarations from famous local politicians, opinion makers and spiritual leaders and their janitors and put them in the mouth of the people hurt by these statements. It became a tragicomic viral hit, which ranked among 30 finalists in competition of 212 videos, and was widely recognised on the domestic scene because of the necessary knowledge of broader local context.",
+      "href": "https://vimeo.com/91865881",
+      "buttonText": "Watch the video!"
+    },
+    {
+      "id": "heartbleedinfo",
+      "title": "Heartbleed",
+      "text":
+        "On April 9th 2014 we responded to the moral panic cause by the evil web insect known by the name Hearbleed. We demanded that local web service providers, while the media mostly called on users to change their passwords, even if the power to keep them safe was entirely in the service providers hands.",
+      "href": "https://danesjenovdan.si/heartbleed",
+      "buttonText": "Look at the call and responses!"
+    },
+    {
+      "id": "borutinfo",
+      "title": "Et tu, B(o)rute?",
+      "text":
+        "In March 2014, we prepared an online reminder for future electoral assessment of potential new candidature of the current Slovenian president. The tool, which is also useful for a variety of engaged uses, was created after the inauguration of the new Anti Corruption Commission and its president, which in one stroke devalued this highly entrusted supervisory authority.",
+      "href": "https://danesjenovdan.si/borut",
+      "buttonText": "Take a look at the app!"
+    },
+    {
+      "id": "novsouinfo",
+      "title": "Nov ŠOU",
+      "text":
+        "In December 2013 we prepared an online campaign Nov ŠOU, which supported the proposed statutory changes of Student's Organisation of University of Ljubljana in the direction of its definition as an institution under public law and the associated greater control over its operation. In spite of record participation (almost 6000) for students' politics and clearly expressed democratic will of the students (94% voted for the proposed changes) the referendum failed because quorum (20%) was not reached.",
+      "href": "https://danesjenovdan.si/novsou",
+      "buttonText": "Oglej si e-kampanjo!"
+    },
+    {
+      "id": "homojboginfo",
+      "title": "Homojbog",
+      "text":
+        "In June 2013, accompanying the Pride, we prepared an intervention facing the counterproductive patronising attitude towards the LGBTQ community. The campaign involved a number of media personalities, who with their coarse, direct, street self-declarations showed solidarity with all those who are insulted by those same declarations.",
+      "href": "https://danesjenovdan.si/homojbog",
+      "buttonText": "Take a look at the videos!"
+    },
+    {
+      "id": "danzastudentskoorganiziranjeinfo",
+      "title": "A day for student organising",
+      "text":
+        "On March 25th 2013 we organised a workshop on the traps and opportunities of student organising. Initial remarks were contributed by Aleš Črnič, Slavko Gaber, Klemen Miklavič in Jože Vogrinc. The workshop was live on the air on Radio Student, while a full hall of students destroyed the myth of their disinterest and apathy.",
+      "href": "http://spet.danesjenovdan.si/",
+      "buttonText": "Watch the recording!"
+    },
+    {
+      "id": "k4info",
+      "title": "K4ever!",
+      "text":
+        "In March 2013 we offered a web presence to a petition to keep club K4 a progressive and independent space of cultural and musical production. We gathered 2465 signatures.",
+      "href": "https://danesjenovdan.si/k4",
+      "buttonText": "Have a look at the petition!"
+    },
+    {
+      "id": "danzavodoinfo",
+      "title": "A day for water",
+      "text":
+        "On March 5th 2013 we organised a workshop on attempts at privatising water resources in search of more democratic ways of managing the commons. The topic for our first participatory session experts (Nikolai Jeffs, Maja Simoneti, Urša Šebenik in Žiga Vodovnik), those interested and passers-by organised by Today is a new day came out of our web platform.",
+      "href": "http://spet.danesjenovdan.si/?spet=dan-za-vodo",
+      "buttonText": "Watch the tape!"
+    },
+    {
+      "id": "predlogiinfo",
+      "title": "Proposals",
+      "text":
+        "Predlogi (proposals) is a platform for constructive, safe and inclusive debate, which was conceived by the originally informal community Today is a new day, which today operates within the Institute. We started conceiving the tool at the beginning of nationwide protests in November 2012, the first very rudimentary version was published during the protests on the 7th of December. The platform has since then substantially filled with content, functionally developed and updated, and is currently archived. We plan to use it again in the future for the purposes of participatory decision-making with local communities.",
+      "href": "http://predlogi.danesjenovdan.si/",
+      "buttonText": "Visit the platform!"
+    },
+    {
+      "id": "harlemshakeinfo",
+      "title": "Harlem shake for the republic",
+      "text":
+        "In February 2013 we jumped on the global viral bandwagon called Harlem Shake and uploaded a video of a random event, which has been witnessed one evening on the premises of a certain faculty of the University of Ljubljana. Although the event lasted for only 30 seconds, it effectively showed two possible visions for the future of Slovenian society: one is yellow, the other a rainbow.",
+      "href": "https://www.youtube.com/watch?v=kW3eGP6QecU",
+      "buttonText": "Watch the video!"
+    },
+    {
+      "id": "zakonopljoinfo",
+      "title": "Proceed with weed",
+      "text":
+        "At the end of 2012 we supported the efforts of Slovenia's Cannabis social club, that submitted a draft law to legalise marihuana with a free web campaign. We are especially proud of our use of gamification design patterns, that garnered worldwide attention the following year. The police still chase after the peaceful smokers, but we are confident one day we'll be done with that as well.",
+      "href": "http://zakonopljo.si",
+      "buttonText": "Take a look at the campaign!"
+    }
+  ]
+}
