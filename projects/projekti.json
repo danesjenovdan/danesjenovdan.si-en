@@ -34,7 +34,7 @@
         "When applying the SCAN method to speeches from Slovenian national TV’s “Odmevi” we were responsible for the technological parts of the job: we developed a learned digital semantic tool and set up a web platform for the analyses while EBSI researchers took care of interpreting the results.",
       "image": "/projekti/img/besedogled.png",
       "projectNumberHTML":
-        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">The tool was trained for</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">X</p><p class=\"projectnumbertext\">months</p></div>"
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">The tool was trained for</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">10</p><p class=\"projectnumbertext\">months</p></div>"
     },
     {
       "show": true,
