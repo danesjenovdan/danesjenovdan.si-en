@@ -844,7 +844,12 @@ $(document).ready(function () {
         if (window.location.hash.indexOf("#popup-") === 0) {
             var id = window.location.hash.slice(7);
             $('.popup').removeClass('open');
-            $('#' + id + '.popup').addClass("open");
+            if ($('#' + id + '.popup').length) {
+                $('#' + id + '.popup').addClass("open");
+                document.scrollingElement.style.overflowY = 'hidden';
+            } else {
+                document.scrollingElement.style.overflowY = '';
+            }
         }
     }, false);
 
@@ -940,9 +945,13 @@ $(document).ready(function () {
     });
 
     // open popup
-    if (window.location.href.indexOf('#popup-') != '') {
+    if (window.location.hash.indexOf('#popup-') === 0) {
         $('.popup').height($(window).height());
-        $('#' + window.location.href.split('#popup-')[1]).addClass('open');
+        var $opop = $('#' + window.location.href.split('#popup-')[1]);
+        if ($opop.length) {
+            $opop.addClass('open');
+            document.scrollingElement.style.overflowY = 'hidden';
+        }
     }
 
     // newsletter show name/lastname
