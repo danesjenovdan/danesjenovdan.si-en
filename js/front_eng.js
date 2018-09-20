@@ -1207,3 +1207,7 @@ $.getJSON('https://api.djnd.si/getKuraSignatures/', function(r) {
 $('[data-href="signup"]').on('click', function() {
     window.location.href = '/jaz/';
 });
+
+$.getJSON('https://api.djnd.si/getAllSignaturesAndCountForMultiple/?peticije=dajmir', function(r) {
+  $('#dajmir .projectnumbernumber').text(r.counter);
+});
