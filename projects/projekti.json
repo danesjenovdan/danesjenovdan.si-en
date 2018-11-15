@@ -27,6 +27,18 @@
     {
       "show": true,
       "pinned": false,
+      "id": "parlametar",
+      "popup": "parlametarinfo",
+      "title": "Parlametar.hr",
+      "text":
+        "Parlameter, an open source tool for monitoring parliamentary work, successfully migrated across the southern border. We present Parlametar, which oversees and analyses the work of Croatian MPs!",
+      "image": "/projekti/img/parlametar.png",
+      "projectNumberHTML":
+        "<p class=\"projectnumbertext\">&nbsp;</p><div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbernumber\" style=\"font-size: 42px; line-height: 60px; white-space: nowrap\">2.</p><p class=\"projectnumbertext\">installation of Parlameter</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
       "id": "dajmir",
       "popup": "dajmirinfo",
       "title": "daJmir",
@@ -497,6 +509,14 @@
         "Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of approximately 1000 characters, we draw attention to hidden sides of big stories, highlight small but significant incidents, monitor independent media, and the politicial backstage. Agrument is unsigned and is a product of collaborative work.<br>Every now and then on 25 consecutive Saturdays we publish thematic agruments and sometimes, very rarely, we even produce video ones.",
       "href": "https://agrument.danesjenovdan.si/",
       "buttonText": "Try reading some! (in Slovene)"
+    },
+    {
+      "id": "parlametarinfo",
+      "title": "Parlametar.hr",
+      "text":
+        "After months of translation, code adaptation, planning, design and data input, Parlametar, the first in a planned series of foreign language parlameters, was launched in September 2018. It was built in cooperation with Croatian partners GONG and it will, just like Slovenian Parlameter, serve journalists, researchers, NGOs, the general public, and, of course, developers. The new version of the tool is also open source and data is accessible via API calls. Our mission: bringing Parlameter to as many countries, municipalities and cities as possible!",
+      "href": "https://parlametar.hr",
+      "buttonText": "Check out Parlametar"
     },
     {
       "id": "dajmirinfo",
