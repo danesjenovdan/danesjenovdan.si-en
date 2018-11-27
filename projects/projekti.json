@@ -27,6 +27,30 @@
     {
       "show": true,
       "pinned": false,
+      "id": "meetandcode2",
+      "popup": "meetandcode2info",
+      "title": "MANUFACTURING AIR QUALITY SENSORS",
+      "text":
+        "Our programmers carried out a workshop on digital encryption for high school and university students. The event was organized in the DJND premises as part of Meet & Code programme. The emphasis was on independent work and understanding of all the steps and aspects of the project; from hardware to software.",
+      "image": "/projekti/img/meetandcode2.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">We installed</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">12</p><p class=\"projectnumbertext\">sensors</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "meetandcode1",
+      "popup": "meetandcode1info",
+      "title": "SECURITY AND ENCRYPTION ON THE INTERNET",
+      "text":
+        "Our programmers carried out a workshop on digital encryption for primary school students. The event was organized in the DJND premises as part of Meet & Code programme. The emphasis was on the understanding of encryption on the internet, which was explained on everyday examples.",
+      "image": "/projekti/img/meetandcode1.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Attendees were</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">50 %</p><p class=\"projectnumbertext\">girls</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
       "id": "parlametar",
       "popup": "parlametarinfo",
       "title": "Parlametar.hr",
@@ -509,6 +533,22 @@
         "Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of approximately 1000 characters, we draw attention to hidden sides of big stories, highlight small but significant incidents, monitor independent media, and the politicial backstage. Agrument is unsigned and is a product of collaborative work.<br>Every now and then on 25 consecutive Saturdays we publish thematic agruments and sometimes, very rarely, we even produce video ones.",
       "href": "https://agrument.danesjenovdan.si/",
       "buttonText": "Try reading some! (in Slovene)"
+    },
+    {
+      "id": "meetandcode2info",
+      "title": "MANUFACTURING AIR QUALITY SENSORS",
+      "text":
+        "In October 2018 we organized two youth workshops as part of Meet & Code programme. The second was intended for high school and university students, whom we helped build sensors for measuring air quality. We built a chip that measures the number of dust particles in the air (PM2.5 and PM10), as well as temperature and humidity. We have already installed some of those sensors across Slovenia and you can see their location visualized on a dedicated website.",
+      "href": "http://zrak.djnd.si/",
+      "buttonText": "Check out the sensors on the map"
+    },
+    {
+      "id": "meetandcode1info",
+      "title": "SECURITY AND ENCRYPTION ON THE INTERNET",
+      "text":
+        "In October 2018 we organized two youth workshops as part of Meet & Code programme. The first was intended for elementary school students, whom we helped understand the basics of (online) encryption. We went through the key concepts before attempting simple experiments, in which we tried to decode encrypted messages. We used concrete examples to explain the importance of online encryption and hopefully convinced the participants that internet safety is of paramount importance.",
+      "href": "https://danesjenovdan.si/delavnice/varnost",
+      "buttonText": "Check out the event website"
     },
     {
       "id": "parlametarinfo",
