@@ -27,6 +27,30 @@
     {
       "show": true,
       "pinned": false,
+      "id": "stanosanje",
+      "popup": "stanosanjeinfo",
+      "title": "DREAMING OF APARTMENTS",
+      "text":
+        "We created an interactive website where we visualised and contextualized data from a research project prepared by the Institute for Housing and Space Studies in cooperation with the Faculty of Social Studies and the Institute for Spatial Policies.",
+      "image": "/projekti/img/stanosanje.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Website was visited by</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">45.000</p><p class=\"projectnumbertext\">people</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
+      "id": "participativni",
+      "popup": "participativniinfo",
+      "title": "PARTICIPATORY BUDGETING",
+      "text":
+        "Just before the local elections, we launched a campaign to obtain commitments on the implementation of participatory budgeting from the mayoral candidates in the event of their election.",
+      "image": "/projekti/img/participativni.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">In the first round of local elections we received</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">274</p><p class=\"projectnumbertext\">commitments</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
       "id": "meetandcode2",
       "popup": "meetandcode2info",
       "title": "MANUFACTURING AIR QUALITY SENSORS",
@@ -533,6 +557,22 @@
         "Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of approximately 1000 characters, we draw attention to hidden sides of big stories, highlight small but significant incidents, monitor independent media, and the politicial backstage. Agrument is unsigned and is a product of collaborative work.<br>Every now and then on 25 consecutive Saturdays we publish thematic agruments and sometimes, very rarely, we even produce video ones.",
       "href": "https://agrument.danesjenovdan.si/",
       "buttonText": "Try reading some! (in Slovene)"
+    },
+    {
+      "id": "stanosanjeinfo",
+      "title": "DREAMING OF APARTMENTS",
+      "text":
+        "In November 2018 we created an interactive website where the user can get an insight into Ljubljana housing situation on the basis of the level of their own income. To find out how many of the apartments available on the most popular online real estate portal can one buy or rent, they just need to enter the amount of their monthly income. The website also informs them of the apartments' average size. The personalized calculation is then placed in a wider context of housing issues, such as rising real estate prices, which are not followed by wages, the increase in population, etc.",
+      "href": "https://danesjenovdan.si/stanovanja/",
+      "buttonText": "Check out the website"
+    },
+    {
+      "id": "participativniinfo",
+      "title": "PARTICIPATORY BUDGETING",
+      "text":
+        "In November 2018, we published a comprehensive online campaign for the implementation of participatory budgeting on the local level. We contacted all the mayoral candidates in 2018 local elections and asked for a commitment to implement this mechanism of direct democracy in the event of their election. We also created a website where we explained and clearly defined participative budget, and published the received commitments to its implementation. After the elections, we updated the website in a manner that the public can monitor whether the commitments have already been fulfilled as well es exerting pressure on the mayors who are not yet ready to introduce participatory budgeting in their municipalities.<br>As part of the broader campaign, we also translated and adjusted the Spanish open source software solution for the implementation of participatory budgeting, and also installed it in the municipality of Kranjska Gora for their youth to decide on projects.",
+      "href": "https://danesjenovdan.si/participativni-proracun/",
+      "buttonText": "Check out the project website"
     },
     {
       "id": "meetandcode2info",
