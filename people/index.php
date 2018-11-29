@@ -122,7 +122,7 @@
 
 error_reporting(0);
 
-$people = json_decode(file_get_contents('../../krivi/krivi.json'), true);
+$people = json_decode(file_get_contents('https://danesjenovdan.si/krivi/krivi.json'), true);
 
 function sort_by_last_name($a, $b){
     $last_a = array_pop(explode(' ', $a['name']));
@@ -167,9 +167,9 @@ foreach ($people_array as $index => $person) {
                 <div class="col-md-3 col-sm-6">
                     <div class="polaroid" id="polaroidti" data-href="/dolzni/#popup-naturalijepopup">
                         <div class="image founder" id="ti"></div>
-                        <h1 class="polaroidname">Ti!</h1>
+                        <h1 class="polaroidname">You!</h1>
                         <a class="polarodilink"><br></a>
-                        <p class="polaroidtext">Ja, ti ja!</p>
+                        <p class="polaroidtext">Yes, you!</p>
                     </div>
                 </div>
             </div>
