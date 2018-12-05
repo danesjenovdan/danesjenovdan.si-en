@@ -1,3 +1,6 @@
+// noop old google analytics calls
+var ga = ga || function(){};
+
 // equalise heights
 $.fn.equalizeHeights = function () {
     $(this).css("height", "");
