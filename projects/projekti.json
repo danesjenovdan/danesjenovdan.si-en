@@ -46,7 +46,7 @@
         "We created an interactive website where we visualised and contextualized data from a research project prepared by the Institute for Housing and Spatial Studies in cooperation with the Faculty of Social Studies and the Institute for Spatial Policies.",
       "image": "/projekti/img/stanosanje.png",
       "projectNumberHTML":
-        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Website was visited by</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">45.000</p><p class=\"projectnumbertext\">people</p></div>"
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Website was visited by</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">45 000</p><p class=\"projectnumbertext\">people</p></div>"
     },
     {
       "show": true,
@@ -442,7 +442,7 @@
         "A call to immediately address a global threat to the internet. Holding the ones responsible to account and measuring response time.",
       "image": "/projekti/img/heartbleed.png",
       "projectNumberHTML":
-        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">from idea to realisation</p><p class=\"projectnumbernumber\">11h</p></div>"
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">from idea to realisation</p><p class=\"projectnumbernumber\">11 h</p></div>"
     },
     {
       "show": true,
@@ -466,7 +466,7 @@
         "A web-vased campaign for statutory changes of the Student's Organisation of University of Ljubljana in the direction of its definition as an institution under public law and greater transparency of its operations.",
       "image": "/projekti/img/novsou.png",
       "projectNumberHTML":
-        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">turnout increased by</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">1200%</p></div>"
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">turnout increased by</p><p class=\"projectnumbernumber\" style=\"font-size: 42px;\">1200 %</p></div>"
     },
     {
       "show": true,
@@ -490,7 +490,7 @@
         "A workshop on traps and opportunities of student organising, rethinking the legal status of ŠOS and ŠOU, financing, politicising and the gap between common and particular interests.",
       "image": "/projekti/img/dan_za_stud_org.png",
       "projectNumberHTML":
-        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">president of ŠOU stayed for</p><p class=\"projectnumbernumber\" style=\"font-size: 37px;\">133min</p></div>"
+        "<div class=\"projectnumber\" style=\"width: 218px;\"><p class=\"projectnumbertext\">president of ŠOU stayed for</p><p class=\"projectnumbernumber\" style=\"font-size: 37px;\">133 min</p></div>"
     },
     {
       "show": true,
