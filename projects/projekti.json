@@ -27,6 +27,18 @@
     {
       "show": true,
       "pinned": false,
+      "id": "botrisovrastva",
+      "popup": "botrisovrastvainfo",
+      "title": "GODFATHERS OF HATE",
+      "text":
+        "A campaign against the normalization of hate in the form of corporate advertising in the media that inflame intolerance. We redesigned certain ads by those who ignore their public responsibility, violate ethical standards, and good taste, so that they directly communicate what they had implicitly supported thus far. And, looky look, suddenly they all give a damn.",
+      "image": "/projekti/img/botrisovrastva.png",
+      "projectNumberHTML":
+        "<div class=\"projectnumber\" style=\"padding-top: 15px; padding-bottom: 15px; width: 218px;\"><p class=\"projectnumbertext\">Provoked</p><p class=\"projectnumbernumber\" style=\"font-size: 28px; line-height: 60px; white-space: nowrap\">1 response</p><p class=\"projectnumbertext\">by the Prime Minister</p></div>"
+    },
+    {
+      "show": true,
+      "pinned": false,
       "id": "zicar",
       "popup": "zicarinfo",
       "title": "Razor wire",
@@ -569,6 +581,14 @@
         "Since the beginning of 2014 we stage daily interventions into our domestic media space. In the interventions composed of approximately 1000 characters, we draw attention to hidden sides of big stories, highlight small but significant incidents, monitor independent media, and the politicial backstage. Agrument is unsigned and is a product of collaborative work.<br>Every now and then on 25 consecutive Saturdays we publish thematic agruments and sometimes, very rarely, we even produce video ones.",
       "href": "https://agrument.danesjenovdan.si/",
       "buttonText": "Try reading some! (in Slovene)"
+    },
+    {
+      "id": "botrisovrastvainfo",
+      "title": "GODFATHERS OF HATE",
+      "text":
+        "The theme of problematic advertising alongside hostile content was opened by Domen Savič’s campaign Ej, Telekom! We decided to add fuel to the fire and widen the focus. We began to conceive the Godfathers of hate in September 2018 when we realized that many successful companies that promote themselves as socially responsible media have no problems advertising in highly manipulative media. To address this we created an online campaign in which we redesigned their ads by exposing companies as direct patrons of hatred, racism, homophobia, xenophobia, and chauvinism. Individual ads can be shared independently on social networks - and indeed some have become viral hits. The campaign helped to bring this topic to the highest levels and we saw the Prime Minister urge companies to think about where they advertise, and we were urged - in the form of funny PR maneuvers - by companies that we should be respectful of their reputation, which they apparently suddenly started to care about. We are not retiring the Godfathers of hate campaign and will continue to called businesses to account in the future.",
+      "href": "https://danesjenovdan.si/botri-sovrastva/",
+      "buttonText": "Check out the website"
     },
     {
       "id": "zicarinfo",
