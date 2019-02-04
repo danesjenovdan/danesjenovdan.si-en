@@ -659,7 +659,7 @@
       "title": "Form the government",
       "text":
         "The end of July 2018 marked a fruitful cooperation of civil society and non-governmental organizations, which produced a campaign and a satirical website challenging the established ways of political collaboration. The parties should cooperate on the basis of concrete policies and content, but, rather, they get caught up in trading with power and satisfyinig individuals' appetites. But neglecting competences is just one side of the story; equally if not more problematic is the Slovenian trend of adopting legislation through abbreviated procedures, which excludes civil society and NGOs and prevents any kind of public debate. All of this helps to create the impression that civil society is redundant. But the truth could not be more different ...",
-      "href": "https://sestavivlado.si/",
+      "href": "https://danesjenovdan.si/sdk",
       "buttonText": "Check out the webpage"
     },
     {
@@ -691,7 +691,7 @@
       "title": "Sign up for Facebook in Slovene",
       "text":
         "There is more and more talk about the problematic nature of online giants like Facebook, and their handling of our data. In March 2018, after some high-profile scandals such as the one with Cambridge Analytica, we decided to translate the open source website Sign up for Facebook in Slovene. The website is designed to help the user decide whether to open an account on Facebook. The user is be guided through information about their Facebook data that is collected, stored and what is done with them, as well as how all this data helps advertisers and other stakeholders. It is important to take responsibility for our decisions and be aware of their possible consequences!",
-      "href": "https://uporabljajfacebook.si",
+      "href": "https://danesjenovdan.si/uporabljajfacebook/",
       "buttonText": "Check out the website"
     },
     {
@@ -699,7 +699,7 @@
       "title": "KURA.SI",
       "text":
         "The most important result of the campaign against using battery cages in laying hens housing, which we joined in March 2018, is the petition, sent to all major providers, who sell eggs from laying hens housed in this manner. The public response to the petition, for which we provided all the necessary digital infrastructure, was huge. We also spent several creative hours devising and developing the retro web game kura.si, which supports the campaign. In it, the player is placed in the role of a laying hen and faced with the reality of such life. They are sentenced to suffering in a small cage in which they cannot move freely or do anything except lay eggs. Of course, the potential abolition of battery cages is just a small step in the efforts for the welfare of animals, but only small steps can gradually bring us to the utopian future where mutual respect and coexistence of different cultures and species becomes the new normal.",
-      "href": "https://kura.si",
+      "href": "https://danesjenovdan.si/kura/",
       "buttonText": "Try yourself in the role of a battery-caged laying hen"
     },
     {
@@ -707,7 +707,7 @@
       "title": "humans.vote",
       "text":
         "In January 2018, a group of our developers participated in the Future Hack hackaton, during which they developed an application that enables secure voting through blockchain technology within 48 hours. We intended to build a tool that would allow everyone, regardless of their knowledge about blockchain, to easily install and use the voting application. Organizations and individuals have varying needs in the implementation of different decision-making mechanisms, so we designed the application in such a manner that it is able to function with any voting system. Unfortunately, due to the time limit, the user interface remained uncompleted, but within the given 48 hours we succeeded in largely realizing the project idea. We also wrote the documentation, detailed instructions for installation and user manual and publicly published the (open) code at GitHub.",
-      "href": "http://humans.vote",
+      "href": "https://danesjenovdan.si/humans.vote/",
       "buttonText": "Check out the project"
     },
     {
