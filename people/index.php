@@ -122,7 +122,7 @@
 
 error_reporting(0);
 
-$people = json_decode(file_get_contents('https://danesjenovdan.si/krivi/krivi.json'), true);
+$people = json_decode(file_get_contents('../../danesjenovdan.si/krivi/krivi.json'), true);
 
 function sort_by_last_name($a, $b){
     $last_a = array_pop(explode(' ', $a['name']));
